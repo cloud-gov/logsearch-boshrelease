@@ -10,10 +10,6 @@ curator/vendor/PyYAML-3.12.tar.gz:
   size: 253011
   object_id: c437dff0-e2db-4d48-9c12-626160760901
   sha: cb7fd3e58c129494ee86e41baedfec69eb7dafbe
-curator/vendor/certifi-2017.7.27.1-py2.py3-none-any.whl:
-  size: 349554
-  object_id: b3ad6e0e-1667-448e-57a8-f098cc499ac8
-  sha: aeb9761eb1231d8309a0b593747d0c95303467b5
 curator/vendor/certifi-2018.11.29-py2.py3-none-any.whl:
   size: 154154
   object_id: edc2e0a3-63e6-4194-57a1-bf4aa45e6f47
@@ -22,10 +18,10 @@ curator/vendor/click-6.7-py2.py3-none-any.whl:
   size: 71175
   object_id: 06f97a3a-8cc3-4d83-8c0f-6e85d15167f9
   sha: 9490775172e63ba94233d4b201f0e8d78b0cd939
-curator/vendor/elasticsearch-5.6.0-py2.py3-none-any.whl:
-  size: 58679
-  object_id: 101d0ced-4af3-4f4f-5916-8ab699f6ad0c
-  sha: 0215d94d3e6b2c3c2ffcba54a84186a8aacb86df
+curator/vendor/elasticsearch-6.3.1-py2.py3-none-any.whl:
+  size: 119897
+  object_id: 89c05887-927d-4c54-7e83-431971ad9250
+  sha: 025d9d1f746f31ab49dcac242f79d16d47e6f834
 curator/vendor/elasticsearch_curator-5.6.0-py2.py3-none-any.whl:
   size: 95811
   object_id: 8cd2536d-07a1-4df0-6980-7c06edd4da21
@@ -34,10 +30,6 @@ curator/vendor/urllib3-1.22-py2.py3-none-any.whl:
   size: 132332
   object_id: 0b6e809e-090d-4545-7808-b7968f1834a0
   sha: ae6715ae61c34b72d5e0c3241abfb20c2c4d1313
-curator/vendor/voluptuous-0.10.5.tar.gz:
-  size: 41436
-  object_id: b67881a7-7adb-4456-7d0b-f5b00e936152
-  sha: 31373cc4ba935eda76b55e64e8bd218ce4882e2b
 curator/vendor/voluptuous-0.11.5.tar.gz:
   size: 44216
   object_id: 2780d31b-5fdd-4e9f-5530-819da57a2277
