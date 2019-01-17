@@ -10,10 +10,6 @@ curator/vendor/PyYAML-3.12.tar.gz:
   size: 253011
   object_id: c437dff0-e2db-4d48-9c12-626160760901
   sha: cb7fd3e58c129494ee86e41baedfec69eb7dafbe
-curator/vendor/boto3-1.9.80-py2.py3-none-any.wh:
-  size: 128500
-  object_id: e6722e63-afb0-4a78-44d1-07ff44b6afe4
-  sha: 7dc4fab7b43c357f8c75d7b46a942b491113f4a2
 curator/vendor/certifi-2018.10.15-py2.py3-none-any.whl:
   size: 146308
   object_id: 8079ca6b-794c-4678-709b-d169cba81f9f
@@ -22,6 +18,10 @@ curator/vendor/click-6.7-py2.py3-none-any.whl:
   size: 71175
   object_id: 06f97a3a-8cc3-4d83-8c0f-6e85d15167f9
   sha: 9490775172e63ba94233d4b201f0e8d78b0cd939
+curator/vendor/curator/vendor/boto3-1.9.80-py2.py3-none-any.whl:
+  size: 128500
+  object_id: fb84b6f1-43ec-4b40-77af-f5f43d5f3d2e
+  sha: 7dc4fab7b43c357f8c75d7b46a942b491113f4a2
 curator/vendor/elasticsearch-6.3.1-py2.py3-none-any.whl:
   size: 119897
   object_id: 89c05887-927d-4c54-7e83-431971ad9250
