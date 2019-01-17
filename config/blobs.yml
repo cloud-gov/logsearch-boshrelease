@@ -10,6 +10,10 @@ curator/vendor/PyYAML-3.12.tar.gz:
   size: 253011
   object_id: c437dff0-e2db-4d48-9c12-626160760901
   sha: cb7fd3e58c129494ee86e41baedfec69eb7dafbe
+curator/vendor/boto3-1.9.80-py2.py3-none-any.wh:
+  size: 128500
+  object_id: e6722e63-afb0-4a78-44d1-07ff44b6afe4
+  sha: 7dc4fab7b43c357f8c75d7b46a942b491113f4a2
 curator/vendor/certifi-2018.10.15-py2.py3-none-any.whl:
   size: 146308
   object_id: 8079ca6b-794c-4678-709b-d169cba81f9f
