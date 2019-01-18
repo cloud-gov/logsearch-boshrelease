@@ -30,6 +30,14 @@ curator/vendor/elasticsearch_curator-5.6.0-py2.py3-none-any.whl:
   size: 95811
   object_id: 8cd2536d-07a1-4df0-6980-7c06edd4da21
   sha: e45b740182313af11fa1a5bd0cbd25893bfdb516
+curator/vendor/requests_aws4auth-0.9-py2.py3-none-any.whl:
+  size: 54238
+  object_id: be06efab-701d-4aa9-40af-79c438b37124
+  sha: 07c8f766e51428158e05bd686a862b94394761a9
+curator/vendor/six-1.12.0-py2.py3-none-any.whl:
+  size: 10586
+  object_id: b5652bdd-b1b7-418c-6bc6-ddaff49fe906
+  sha: eb69e52f67f270fa1e362a9dbe64e3f6faaf4252
 curator/vendor/urllib3-1.22-py2.py3-none-any.whl:
   size: 132332
   object_id: 0b6e809e-090d-4545-7808-b7968f1834a0

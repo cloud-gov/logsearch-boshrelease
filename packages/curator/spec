@@ -13,3 +13,5 @@ files:
   - curator/vendor/elasticsearch-6.3.1-py2.py3-none-any.whl
   - curator/vendor/voluptuous-0.11.5.tar.gz
   - curator/vendor/boto3-1.9.80-py2.py3-none-any.whl
+  - curator/vendor/six-1.12.0-py2.py3-none-any.whl
+  - curator/vendor/requests_aws4auth-0.9-py2.py3-none-any.whl
