@@ -6,12 +6,20 @@ dependencies:
 
 files:
   - curator/elasticsearch-curator-5.6.0.tar.gz
-  - curator/vendor/PyYAML-3.12.tar.gz
-  - curator/vendor/click-6.7-py2.py3-none-any.whl
-  - curator/vendor/urllib3-1.22-py2.py3-none-any.whl
-  - curator/vendor/certifi-2018.10.15-py2.py3-none-any.whl
-  - curator/vendor/elasticsearch-6.3.1-py2.py3-none-any.whl
+  - curator/vendor/boto3-1.9.82.tar.gz
+  - curator/vendor/botocore-1.12.82.tar.gz
+  - curator/vendor/certifi-2018.11.29.tar.gz
+  - curator/vendor/chardet-3.0.4.tar.gz
+  - curator/vendor/click-6.7.tar.gz
+  - curator/vendor/docutils-0.14.tar.gz
+  - curator/vendor/elasticsearch-6.3.1.tar.gz
+  - curator/vendor/idna-2.8.tar.gz
+  - curator/vendor/jmespath-0.9.3.tar.gz
+  - curator/vendor/python-dateutil-2.7.5.tar.gz
+  - curator/vendor/PyYAML-3.13.tar.gz
+  - curator/vendor/requests-2.21.0.tar.gz
+  - curator/vendor/requests-aws4auth-0.9.tar.gz
+  - curator/vendor/s3transfer-0.1.13.tar.gz
+  - curator/vendor/six-1.12.0.tar.gz
+  - curator/vendor/urllib3-1.24.1.tar.gz
   - curator/vendor/voluptuous-0.11.5.tar.gz
-  - curator/vendor/boto3-1.9.80-py2.py3-none-any.whl
-  - curator/vendor/six-1.12.0-py2.py3-none-any.whl
-  - curator/vendor/requests_aws4auth-0.9-py2.py3-none-any.whl
