@@ -6,11 +6,11 @@ resources:
     branch: develop
     private_key: {{logsearch-boshrelease-access-key}}
 
-- name: aws-stemcell
+- name: aws-stemcell-xenial
   type: bosh-io-stemcell
   check_every: 10080m # 1week
   source:
-    name: bosh-aws-xen-hvm-ubuntu-trusty-go_agent
+    name: bosh-aws-xen-hvm-ubuntu-xenial-go_agent
 
 - name: deployment
   type: bosh-deployment
