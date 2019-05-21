@@ -74,10 +74,10 @@ curator/vendor/voluptuous-0.11.5.tar.gz:
   size: 44216
   object_id: 8c326896-935d-402c-4737-5af2d892c1bd
   sha: 8c0aff29b0bae42d001aa304aa056a186b7b03c8
-elasticsearch/elasticsearch-6.3.2.tar.gz:
-  size: 91452574
-  object_id: 3d72ced7-5370-4036-5f63-2d475cb532ee
-  sha: 7982b300716563125749cd24f9873ea3aed28e4d
+elasticsearch/elasticsearch-6.5.4.tar.gz:
+  size: 113322649
+  object_id: 776ae95a-5976-4a61-6c6c-139f6b3a368d
+  sha: f89d5796108b393cff87a0c0325065bc112b01ad
 haproxy/haproxy-1.7.5.tar.gz:
   size: 1743979
   object_id: 27004bb4-29f6-493f-80ec-6a4170a955d5
