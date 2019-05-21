@@ -90,10 +90,10 @@ java8/openjdk-1.8.0_152.tar.gz:
   size: 45661256
   object_id: 2211b342-4102-4587-6037-23a143726f2b
   sha: 0d5758ed6f0e040684ea8bdf410ba44422f29f47
-kibana/kibana-6.3.2-linux-x86_64.tar.gz:
-  size: 205331616
-  object_id: 95b138c5-a546-47f1-4e8d-6ff6049db06d
-  sha: 34ee24fec22fa00a349a1fd1cda3855b3432a08a
+kibana/kibana-6.5.4-linux-x86_64.tar.gz:
+  size: 206631363
+  object_id: e0209640-ba8e-466d-766b-9804393f6111
+  sha: 62b749b3abacb5ca18ae700e4d3fb2eb5c76d868
 logstash/logstash-6.3.2.tar.gz:
   size: 144211416
   object_id: 9037c656-133e-41e5-6faa-35bc20270541
