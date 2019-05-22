@@ -47,9 +47,9 @@ case $1 in
       <% if path.start_with? '/var/vcap' %>
         /var/vcap/packages/elasticsearch/bin/elasticsearch-plugin install "file://<%= path %>"
       <% elsif path.start_with? 'http' %>
-        /var/vcap/packages/elasticsearch/bin/elasticsearch-plugin install "<%= path %>"
+        /var/vcap/packages/elasticsearch/bin/elasticsearch-plugin install --batch "<%= path %>"
       <% else %>
-        /var/vcap/packages/elasticsearch/bin/elasticsearch-plugin install "<%= path %>"
+        /var/vcap/packages/elasticsearch/bin/elasticsearch-plugin install --batch "<%= path %>"
       <% end %>
     <% end %>
 
