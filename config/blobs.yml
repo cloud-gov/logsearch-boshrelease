@@ -106,6 +106,10 @@ logstash/logstash-6.3.2.tar.gz:
   size: 144211416
   object_id: 9037c656-133e-41e5-6faa-35bc20270541
   sha: 29eede4660b88c0b7182e76d2c3f3a6df29587b8
+logstash/logstash-6.4.0.tar.gz:
+  size: 17903999
+  object_id: 4879d901-620b-405d-5c26-249a65cb6237
+  sha: sha256:239a4d7f17cd61fd84294dfabb221619fe90dea32b676e5c37b19942530a8e86
 logstash/logstash-filter-alter-3.0.2.zip:
   size: 7425
   object_id: 543e5010-6449-400b-489d-31b82dcb4670
