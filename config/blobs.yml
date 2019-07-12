@@ -74,14 +74,10 @@ curator/vendor/voluptuous-0.11.5.tar.gz:
   size: 44216
   object_id: 8c326896-935d-402c-4737-5af2d892c1bd
   sha: 8c0aff29b0bae42d001aa304aa056a186b7b03c8
-elasticsearch/elasticsearch-6.3.2.tar.gz:
-  size: 91452574
-  object_id: 3d72ced7-5370-4036-5f63-2d475cb532ee
-  sha: 7982b300716563125749cd24f9873ea3aed28e4d
-elasticsearch/elasticsearch-6.4.0.tar.gz:
-  size: 97901357
-  object_id: a8cb84f9-ee9d-461e-6f69-d364bb1f6e34
-  sha: sha256:e9786efb5cecd12adee2807c7640ba9a1ab3b484d2e87497bb8d0b6df0e24f01
+elasticsearch/elasticsearch-6.4.3.tar.gz:
+  size: 97872736
+  object_id: 207a093f-6e12-4084-5ec0-56fd37a2048f
+  sha: sha256:861bc4d4188ce65df34a8876f104bbb2cddff3586990e57233e0847eb961b15e
 haproxy/haproxy-1.7.5.tar.gz:
   size: 1743979
   object_id: 27004bb4-29f6-493f-80ec-6a4170a955d5
@@ -94,22 +90,14 @@ java8/openjdk-1.8.0_152.tar.gz:
   size: 45661256
   object_id: 2211b342-4102-4587-6037-23a143726f2b
   sha: 0d5758ed6f0e040684ea8bdf410ba44422f29f47
-kibana/kibana-6.3.2-linux-x86_64.tar.gz:
-  size: 205331616
-  object_id: 95b138c5-a546-47f1-4e8d-6ff6049db06d
-  sha: 34ee24fec22fa00a349a1fd1cda3855b3432a08a
-kibana/kibana-6.4.0-linux-x86_64.tar.gz:
-  size: 187936225
-  object_id: 1f9135bb-ab70-4fa3-6917-c3bafc0a3338
-  sha: sha256:df2056105a08c206a1adf9caed09a152a53429a0f1efc1ba3ccd616092d78aee
-logstash/logstash-6.3.2.tar.gz:
-  size: 144211416
-  object_id: 9037c656-133e-41e5-6faa-35bc20270541
-  sha: 29eede4660b88c0b7182e76d2c3f3a6df29587b8
-logstash/logstash-6.4.0.tar.gz:
-  size: 153887188
-  object_id: 0a38e029-6e1a-47fc-544e-63a707324713
-  sha: sha256:292646d1a44abd8107d29ba9a0b888fdf50f13ad668149f1739b143cd7c5ba3a
+kibana/kibana-6.4.3-linux-x86_64.tar.gz:
+  size: 235299366
+  object_id: 3d4c40ea-2377-4e7e-643c-cf239d263bd5
+  sha: sha256:5f1fe4f464bbfeccbd79c620ad728c1537b6f92af54b31e9cc7c4e86adce4c2c
+logstash/logstash-6.4.3.tar.gz:
+  size: 153936585
+  object_id: c4bd8d76-56e1-4fac-732f-43b9fab1247e
+  sha: sha256:72dcd1cf21e55cd44503ca7c452aaaa88286564ba1450d5d05941f88e2699cc3
 logstash/logstash-filter-alter-3.0.2.zip:
   size: 7425
   object_id: 543e5010-6449-400b-489d-31b82dcb4670
