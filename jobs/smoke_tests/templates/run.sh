@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 <%
   ingestor_host = nil
   if_link("ingestor") { |ingestor_link| ingestor_host = ingestor_link.instances.first.address }
