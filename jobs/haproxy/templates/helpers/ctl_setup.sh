@@ -12,6 +12,7 @@
 
 set -e # exit immediately if a simple command exits with a non-zero status
 set -u # report the usage of uninitialized variables
+set -x # makes debugging a shell script human friendly.
 
 JOB_NAME=$1
 output_label=${2:-${JOB_NAME}}
