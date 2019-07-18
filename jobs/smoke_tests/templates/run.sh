@@ -44,7 +44,7 @@ INGEST="nc $INGESTOR_HOST $INGESTOR_PORT"
 echo "SENDING $LOG"
 echo "$LOG" | $INGEST > /dev/null
 
-TRIES=${1:-600}
+TRIES=${1:-720}
 SLEEP=5
 
 echo -n "Polling for $TRIES seconds"
