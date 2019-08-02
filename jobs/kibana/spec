@@ -67,6 +67,9 @@ properties:
   kibana.apm_enabled:
     description: "Enable Kibana APM ui; should be set to `false` in a multi-tenant deployment."
     default: false
+  kibana.reporting_key:
+    description: "Define a reporting key to prevent issues with exporting a report in a load balanced scenario."
+    default: CloudFoundry123!
   kibana.config_options:
     description: "Additional options to append to kibana's config.yml (YAML format)."
     default: ~
