@@ -95,6 +95,9 @@ xpack.grokdebugger.enabled: <%= p("kibana.grokdebugger_enabled") %>
 # configure apm
 xpack.apm.ui.enabled: <%= p("kibana.apm_enabled") %>
 
+# set reporting key for load balanced scenarios
+xpack.reporting.encryptionKey: <%= p("kibana.reporting_key") %>
+
 # disable x-pack
 xpack.monitoring.enabled: false
 xpack.graph.enabled: false
