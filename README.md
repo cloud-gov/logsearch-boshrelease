@@ -11,11 +11,17 @@ Logsearch < v23.0.0 was based on Elasticsearch 1.x and Kibana 3.
 
 Logsearch > v200 is based on Elasticsearch 2.x and Kibana 4.
 
-There is NO upgrade path from Elasticsearch 1.x to 2.x.  Sorry :(
+- There is NO upgrade path from Elasticsearch 1.x to 2.x.  Sorry :(
 
-Logsearch > v204.0.0 is based on Elasticsearch 5.x and Kibana 5.
+Logsearch > v204.0.0 is based on Elastic stack version 5.
 
-For upgrade procedure from Elasticsearch 2.x please refer to [v205.0.0 release notes](https://github.com/cloudfoundry-community/logsearch-boshrelease/releases/tag/v205.0.0#component-updates).
+- For upgrade procedure from Elasticsearch 2.x please refer to [v205.0.0 release notes](https://github.com/cloudfoundry-community/logsearch-boshrelease/releases/tag/v205.0.0#component-updates).
+
+Logsearch > v210.0.0 is based on Elastic stack version 6.
+
+- Elasticsearch 6.x can use indices created in Elasticsearch 5.x, but not those created in Elasticsearch 2.x or before.
+- **Important**: After upgrading running 5.x cluster to 6.x all existing indicies will be available for reading data. However, writing to these indicies is not possible. In order to write data immediatelly after upgrade you have to [change index naming convention](https://github.com/cloudfoundry-community/logsearch-boshrelease/commit/2f83b41ee14dbe3141e21cc0c40df340d50e0169). As long as index names are usually based on current date, this change can be safely reverted in a day or so.
+
 
 ## Getting Started
 
@@ -28,65 +34,15 @@ for a list of the common Addons:
 
   * [Logsearch for CloudFoundry](https://github.com/cloudfoundry-community/logsearch-for-cloudfoundry)
 
-If you are sure you want install just Logsearch Core, read on...
 
 ## Installing Logsearch Core
-
-0. Upload the latest logserach release
-
-   * Download the latest logsearch release
    
-     NOTE: At the moment you can get working logsearch release by cloning Git repository and creating bosh release from it.
+Before starting deployment, make sure your BOSH environment is ready, and all `BOSH_` evironment variables are set. We suggest you to use [BBL](https://github.com/cloudfoundry/bosh-bootloader) tool to spin up the BOSH environment.
 
-      Example:
-   
-      ```sh
-      $ git clone https://github.com/cloudfoundry-community/logsearch-boshrelease.git
-      $ cd logsearch-boshrelease
-      $ bosh create release
-      ```
-   
-   * Upload bosh release
-   
-      Example:
-
-      ```sh
-      $ bosh upload release
-      ```
-   
-0. Customise your deployment stub:
-
-   * Make a copy of `templates/stub.$INFRASTRUCTURE.example.yml` to `stub-logsearch.yml`
-   
-      Example: 
-      ```sh
-      $ cp logsearch-boshrelease/templates/stub.openstack.example.yml stub-logsearch.yml
-      ```
-     
-   * Edit `stub-logsearch.yml` to match your IAAS settings
-
-0. Generate a manifest with `scripts/generate_deployment_manifest $INFRASTRUCTURE stub-logsearch.yml > logsearch.yml`
-
-   Example: 
-   
-   ```sh
-   $ logsearch-boshrelease/scripts/generate_deployment_manifest openstack stub-logsearch.yml > logsearch.yml
-   ```
-   
-   Notice `logsearch.yml` generated.
-
-0. Make sure you have these 2 security groups configured:
-
-   * `bosh` which allow access from this group itself
-
-   * `logsearch` which allow access to ports 80, 8080, 8888
-
-0. Deploy!
-
-   ```sh
-   $ bosh -d logsearch.yml deploy
-   ```
-
+```
+$ cd deployment
+$ bosh -d logsearch deploy logsearch-deployment.yml
+```
 ## Common customisations:
 
 0. Adding new parsing rules:

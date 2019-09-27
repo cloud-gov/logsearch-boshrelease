@@ -105,4 +105,6 @@ xpack.ml.enabled: false
 xpack.security.enabled: false
 xpack.watcher.enabled: false
 
-<% if_p('kibana.config_options') do | v | %><%= v %><% end %>
+<% if_p('kibana.config_options') do p("kibana.config_options", {}).each do | k, v | %>
+<%= k %>: <%= v %><% end %>
+<% end %>
