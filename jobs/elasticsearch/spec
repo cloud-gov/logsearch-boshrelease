@@ -3,7 +3,7 @@ name: elasticsearch
 
 packages:
   - elasticsearch
-  - java8
+  - openjdk-8
 
 templates:
   bin/drain.erb: bin/drain
@@ -49,6 +49,9 @@ properties:
     default: []
   elasticsearch.heap_size:
     description: sets jvm heap sized
+  elasticsearch.heap_percentage:
+    description: The percentage value used in the calculation to set the heap size.
+    default: 46
   elasticsearch.path_repo:
     description: |
       Shared file system to store snapshots.

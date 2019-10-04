@@ -1,3 +1,0 @@
-set -e
-
-tar xzf java8/openjdk-1.8.0_152.tar.gz -C $BOSH_INSTALL_TARGET

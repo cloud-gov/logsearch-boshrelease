@@ -5,7 +5,8 @@ set -e
 <% if p('elasticsearch.node.allow_data') %>
 # disable allocations before bringing down data nodes
 
-curl -H 'Content-Type: application/json' -s -X PUT localhost:9200/_all/_settings \
+curl -s -X PUT localhost:9200/_all/_settings \
+  -H 'Content-Type: application/json' \
   -d '{"settings": {"index.unassigned.node_left.delayed_timeout": "<%= p("elasticsearch.recovery.delay_allocation_restart") %>"}}' \
   > /dev/null
 

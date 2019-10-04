@@ -3,10 +3,10 @@ name: elasticsearch_config
 
 packages:
   - elasticsearch
-  - java8
+  - openjdk-8
 
 templates:
-  bin/run.erb: bin/run
+  bin/run.erb: bin/upload-config
   bin/job.process: bin/job.process
   index-templates/shards-and-replicas.json.erb: index-templates/shards-and-replicas.json
   index-templates/index-settings.json.erb: index-templates/index-settings.json
