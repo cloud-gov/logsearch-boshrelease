@@ -1,3 +1,4 @@
+#!/bin/bash
 <% if p("elasticsearch.migrate_data_path") %>
 if [[ -d /var/vcap/store/elasticsearch/logsearch ]]; then
     cp -pR /var/vcap/store/elasticsearch/logsearch/nodes /var/vcap/store/elasticsearch
