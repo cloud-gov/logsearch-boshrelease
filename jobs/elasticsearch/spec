@@ -9,6 +9,7 @@ templates:
   bin/drain.erb: bin/drain
   bin/post-deploy.erb: bin/post-deploy
   bin/post-start.erb: bin/post-start
+  bin/pre-start.erb: bin/pre-start
   bin/elasticsearch_ctl: bin/elasticsearch_ctl
   bin/monit_debugger: bin/monit_debugger
   config/config.yml.erb: config/elasticsearch.yml
@@ -133,3 +134,7 @@ properties:
   elasticsearch.snapshots.repository:
     description: Repository name for automatic snapshots
     default: ''
+  elasticsearch.migrate_data_path:
+    description: move data path from /var/vcap/store/elasticsearch/logsearch to /var/vcap/store/elasticsearch
+    default: false
+
