@@ -1,6 +1,8 @@
 ---
 name: curator
 
+description: This job runs Curator process to purge outdated info from Elasticsearch cluster
+
 packages:
   - curator
   - python3
@@ -10,11 +12,6 @@ templates:
   bin/run-curator: bin/run-curator
   config/actions.yml.erb: config/actions.yml
   config/config.yml.erb: config/config.yml
-
-consumes:
- - name: elasticsearch
-   type: elasticsearch
-   optional: true
 
 properties:
   elasticsearch.snapshots.repository:

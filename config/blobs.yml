@@ -1,55 +1,79 @@
-cerebro/cerebro-0.8.1.tgz:
-  size: 56517603
-  object_id: 0f20f256-8298-4875-74e0-c0735074624d
-  sha: sha256:11451e6a8253556d0b9118bb54e2d5f989038180daad99154a8081a835d22224
-curator/elasticsearch-curator-v5.4.0.tar.gz:
-  size: 293962
-  object_id: c468ef48-c54c-44b8-5e9d-06a455555056
-  sha: sha256:87e1bbc75e1946eb6dab0b60f6e6fc4c4bdb309256862d9b787a6cdb6d89cf43
-curator/vendor/Click-7.0-py2.py3-none-any.whl:
-  size: 81299
-  object_id: a5b5cc49-2ace-4495-61ab-b9c11aece053
-  sha: sha256:2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13
-curator/vendor/PyYAML-5.1.tar.gz:
-  size: 274244
-  object_id: ec55d4f7-f249-441c-6f63-b0bd738561fd
-  sha: sha256:436bc774ecf7c103814098159fbb84c2715d25980175292c648f2da143909f95
-curator/vendor/certifi-2019.3.9-py2.py3-none-any.whl:
-  size: 158601
-  object_id: 298e343d-3bb5-4d48-7987-4e74137381c1
-  sha: sha256:59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5
-curator/vendor/elasticsearch-6.3.1-py2.py3-none-any.whl:
-  size: 119897
-  object_id: 246e3692-8304-476b-7e3c-0d0d7172d2d0
-  sha: sha256:7546cc08e3899716e12fe67d12d7cfe9a64647014d1134b014c3c392b63cad42
-curator/vendor/urllib3-1.24.1-py2.py3-none-any.whl:
-  size: 118086
-  object_id: 9e938c04-e73a-4787-4fe3-a0f509cc9b8b
-  sha: sha256:61bf29cada3fc2fbefad4fdf059ea4bd1b4a86d2b6d15e1c7c0b582b9752fe39
+cerebro/cerebro-0.8.5.tgz:
+  size: 52409310
+  object_id: 1ebc64b1-4f12-460f-43d4-42824b712cae
+  sha: sha256:97cdba6c0054f505c6ac72ca5ae010612c86385ac0f7f760cf512e5705a00a27
+curator/elasticsearch-curator-v5.7.6.tar.gz:
+  size: 223849
+  object_id: 59bb52d9-c633-415b-7481-ee6d1e5ac070
+  sha: sha256:a48486cacf0b32038358babfc5a8755c9a24992ff5279226b923298b426fe253
+curator/vendor/PyYAML-3.12.zip:
+  size: 375811
+  object_id: 953d3785-a6ac-4cf0-5fed-2448d6c9cfd8
+  sha: sha256:5ac82e411044fb129bae5cfbeb3ba626acb2af31a8d17d175004b70862a741a7
+curator/vendor/boto3-1.12.36-py2.py3-none-any.whl:
+  size: 128570
+  object_id: af0283d3-0663-4e0f-4f76-60c2b8e14a43
+  sha: sha256:57397f9ad3e9afc17e6100a38c6e631b6545aabc7f8c38b86ff2c6f5931d0ebf
+curator/vendor/botocore-1.15.36-py2.py3-none-any.whl:
+  size: 6066108
+  object_id: a4769647-1978-4656-7c17-328265413809
+  sha: sha256:d2233e19b6a60792185b15fe4cd8f92c5579298e5079daf17f66f6e639585e3a
+curator/vendor/click-6.7-py2.py3-none-any.whl:
+  size: 71175
+  object_id: 0e7bc065-2792-4ad2-7d22-382a4be1b814
+  sha: sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d
+curator/vendor/docutils-0.15.2-py3-none-any.whl:
+  size: 547604
+  object_id: 444ff506-2869-43ce-6352-6773811f560c
+  sha: sha256:6c4f696463b79f1fb8ba0c594b63840ebd41f059e92b31957c46b74a4599b6d0
+curator/vendor/elasticsearch-7.6.0-py2.py3-none-any.whl:
+  size: 88688
+  object_id: c0bb115e-076f-44f1-781c-d598498158d2
+  sha: sha256:f4bb05cfe55cf369bdcb4d86d0129d39d66a91fd9517b13cd4e4231fbfcf5c81
+curator/vendor/jmespath-0.9.5-py2.py3-none-any.whl:
+  size: 24149
+  object_id: 783dc8c3-084d-4ce8-6cf3-3297ef2f12c4
+  sha: sha256:695cb76fa78a10663425d5b73ddc5714eb711157e52704d69be03b1a02ba4fec
+curator/vendor/python_dateutil-2.8.1-py2.py3-none-any.whl:
+  size: 227183
+  object_id: 16589862-e597-4874-7905-c9a429f30561
+  sha: sha256:75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a
+curator/vendor/requests_aws4auth-0.9-py2.py3-none-any.whl:
+  size: 54238
+  object_id: cf4ddb90-53c9-4f88-4441-4929ff008a92
+  sha: sha256:e20e4941ccd5706973068f9214d40cb2e669461536b3a57b9ac824ae87744c2c
+curator/vendor/s3transfer-0.3.3-py2.py3-none-any.whl:
+  size: 69490
+  object_id: 31d3b0cf-7d3f-4760-7784-e976cd57f091
+  sha: sha256:2482b4259524933a022d59da830f51bd746db62f047d6eb213f2f8855dcb8a13
+curator/vendor/six-1.14.0-py2.py3-none-any.whl:
+  size: 10938
+  object_id: 44b1f227-2ccf-49eb-68d4-93e6627a5df0
+  sha: sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c
 curator/vendor/voluptuous-0.11.5-py2.py3-none-any.whl:
   size: 27677
-  object_id: 7db1aed3-8b6b-4e09-6cff-1da97f9eef09
-  sha: sha256:303542b3fc07fb52ec3d7a1c614b329cdbee13a9d681935353d8ea56a7bfa9f1
-elasticsearch/elasticsearch-6.8.1.tar.gz:
-  size: 148584086
-  object_id: 182354fd-aa7c-420e-5102-4b12a4251673
-  sha: sha256:ad33d463884acde2d8682cb46927f03603ea66133b84c12f53dc9edbc02447e3
+  object_id: 30fbe47c-eb16-4db8-57ce-f853940769c7
+  sha: b5c82285df0610464a9332c567cf8bd06b8786f6
+elasticsearch/elasticsearch-7.6.1-linux-x86_64.tar.gz:
+  size: 296454172
+  object_id: a7447f2a-1772-4892-508e-43e5029c54ba
+  sha: sha256:25583ddd44a99437958f7f9410cd9746c8230b367d570cdf69e96824a583748a
 haproxy/haproxy-1.7.5.tar.gz:
   size: 1743979
   object_id: 93570fdf-c123-4f81-6177-8384f4332e52
   sha: sha256:b04d7db6383c662eb0a421a95af7becac6d9744a1abf0df6b0280c1e61416121
 haproxy/pcre-8.40.tar.gz:
   size: 2065161
-  object_id: b378effa-f3dd-4863-7294-49c6cdb1c965
-  sha: sha256:1d75ce90ea3f81ee080cdc04e68c9c25a9fb984861a0618be7bbf676b18eda3e
-kibana/kibana-6.8.1-linux-x86_64.tar.gz:
-  size: 186486884
-  object_id: 1cdf3213-72bd-4abc-46fc-9205646e037e
-  sha: sha256:45cc8c47286f218abbdab04ec502b5de99c86e3da2e8debadaeb99ac79391e02
-logstash/logstash-6.8.1.tar.gz:
-  size: 172031559
-  object_id: dbb73cdf-8bb0-473a-6b2d-076dfc933c72
-  sha: sha256:7e6b7aeee8fa3293f957fc251e2bd47428bf4f1e67a09e6170eca5bcd215669f
+  object_id: edf51dad-4c6c-4a3d-8ebb-3a9b9f9641e5
+  sha: 10384eb3d411794cc15f55b9d837d3f69e35391e
+kibana/kibana-7.6.1-linux-x86_64.tar.gz:
+  size: 249498863
+  object_id: df54821e-9deb-4c08-4f02-6f160dec5913
+  sha: sha256:da636529511e707bbbc621dc131ff2ed18f50fe0df30821c375d16c5ba4248f6
+logstash/logstash-7.6.1.tar.gz:
+  size: 172679481
+  object_id: 8f5d650d-58a2-4774-566a-519d8e085ae5
+  sha: sha256:6b16f3158829ad820463c7f3ca4cfec433d12d0eafa25be203c92d12ca91da10
 logstash/logstash-filter-alter-3.0.2.zip:
   size: 7425
   object_id: 115e22b9-ef42-46e1-6d8d-d23deb9beaa1
@@ -64,8 +88,12 @@ logstash/logstash-input-relp-3.0.2.zip:
   sha: sha256:98fae22f18468c7abea0969b2d714e853ac47686f537c5223b1ff12150b3eedb
 logstash/logstash-input-syslog-3.2.2.zip:
   size: 10966
-  object_id: 8ca1c9dd-1a1f-4a99-4769-dbe3d642d71c
-  sha: sha256:4a799a41b507ff2f4d8b819df509937e24248760b7092f58814ba564fbb976ee
+  object_id: 88ec3912-4366-492a-752c-25080365790d
+  sha: e73dc3326021fc57e8b73ba87b74255870aa69a2
+logstash/logstash-output-syslog-3.0.5.zip:
+  size: 9679
+  object_id: d1c0b0f1-b98b-41b6-4b00-08d3b1bb9467
+  sha: sha256:eaac1ea66848d34dbe41e4126fffac4e221deecb402b310e64fd5bb41e3b870f
 nats_to_syslog/nats_to_syslog_linux_amd64.tar.gz:
   size: 2094679
   object_id: c652847a-f5aa-44a5-43a8-e53a0020dbe3
