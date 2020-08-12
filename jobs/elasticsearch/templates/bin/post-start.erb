@@ -49,15 +49,7 @@ wait_for_greenstate() {
     sleep <%= p("elasticsearch.health.interval") %>
   done
 
-<<<<<<< HEAD
-<% if p("elasticsearch.node.allow_data") %>
-curl -X PUT -s localhost:9200/_all/_settings \
-  -H 'Content-Type: application/json' \
-  -d '{"settings": {"index.unassigned.node_left.delayed_timeout": "<%= p("elasticsearch.recovery.delay_allocation") %>"}}'
-<% end %>
-=======
   rm ${out}
->>>>>>> 7e56a1e8bc01bef3c8217369af7f182140004a80
 
   if [ "${remaining}" -le 0 ]; then
     echo "Node failed to join the cluster"
