@@ -32,9 +32,6 @@ provides:
   - logstash_ingestor.syslog.transport
   - logstash_ingestor.syslog_tls.port
   - logstash_ingestor.relp.port
-<<<<<<< HEAD
-
-=======
 - name: syslog_forwarder
   type: syslog_forwarder
   properties:
@@ -43,7 +40,6 @@ provides:
   type: ingestor_inputs
   properties:
   - logstash_parser.inputs
->>>>>>> 7e56a1e8bc01bef3c8217369af7f182140004a80
 consumes:
 - name: elasticsearch
   type: elasticsearch
@@ -109,11 +105,7 @@ properties:
     description: Instruct the socket to use TCP keep alives
 
   logstash_ingestor.health.disable_post_start:
-<<<<<<< HEAD
-    description: Allow node to run post-start script? (true / false)
-=======
     description: Skip post-start health checks?
->>>>>>> 7e56a1e8bc01bef3c8217369af7f182140004a80
     default: false
   logstash_ingestor.health.interval:
     description: Logstash syslog health check interval (seconds)
