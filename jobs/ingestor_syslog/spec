@@ -1,15 +1,20 @@
 ---
 name: ingestor_syslog
 
+description: |
+  This job runs Logstash process which ingests data by standard Syslog protocol, make some processing,
+  then forward it to Elasticsearch cluster
+
 packages:
 - logstash
 - logsearch-config
-- openjdk-8
+- openjdk-11
 
 templates:
-  bin/ingestor_syslog_ctl: bin/ingestor_syslog_ctl
-  bin/monit_debugger: bin/monit_debugger
+  bin/ingestor_syslog: bin/ingestor_syslog.sh
+  bin/pre-start: bin/pre-start
   bin/post-start.erb: bin/post-start
+  config/bpm.yml.erb: config/bpm.yml
   config/input_and_output.conf.erb: config/input_and_output.conf
   config/filters_pre.conf.erb: config/filters_pre.conf
   config/filters_post.conf.erb: config/filters_post.conf
@@ -18,9 +23,6 @@ templates:
   config/syslog_tls.key.erb: config/syslog_tls.key
   config/logstash.yml.erb: config/logstash.yml
   config/jvm.options.erb: config/jvm.options
-  data/properties.sh.erb: data/properties.sh
-  helpers/ctl_setup.sh: helpers/ctl_setup.sh
-  helpers/ctl_utils.sh: helpers/ctl_utils.sh
 
 provides:
 - name: ingestor
@@ -30,7 +32,14 @@ provides:
   - logstash_ingestor.syslog.transport
   - logstash_ingestor.syslog_tls.port
   - logstash_ingestor.relp.port
-
+- name: syslog_forwarder
+  type: syslog_forwarder
+  properties:
+  - logstash_ingestor.syslog.port
+- name: ingestor_inputs
+  type: ingestor_inputs
+  properties:
+  - logstash_parser.inputs
 consumes:
 - name: elasticsearch
   type: elasticsearch
@@ -96,7 +105,7 @@ properties:
     description: Instruct the socket to use TCP keep alives
 
   logstash_ingestor.health.disable_post_start:
-    description: Allow node to run post-start script? (true / false)
+    description: Skip post-start health checks?
     default: false
   logstash_ingestor.health.interval:
     description: Logstash syslog health check interval (seconds)
