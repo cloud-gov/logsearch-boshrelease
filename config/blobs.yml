@@ -6,6 +6,10 @@ curator/elasticsearch-curator-v5.7.6.tar.gz:
   size: 223849
   object_id: 5bc54ecf-cb6d-4252-5542-ae0f1e889554
   sha: sha256:a48486cacf0b32038358babfc5a8755c9a24992ff5279226b923298b426fe253
+curator/requests-2.21.0-py2.py3-none-any.whl:
+  size: 57987
+  object_id: fc202425-4c46-48c0-4c1f-9e7b7653f7ff
+  sha: sha256:7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b
 curator/vendor/PyYAML-3.12.zip:
   size: 375811
   object_id: 6bab6751-63a5-49bf-4d11-3959e99260e0
