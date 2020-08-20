@@ -18,6 +18,10 @@ curator/vendor/botocore-1.15.36-py2.py3-none-any.whl:
   size: 6066108
   object_id: d7278e18-38c6-42ee-4e3a-f8a4f82f9ecd
   sha: sha256:d2233e19b6a60792185b15fe4cd8f92c5579298e5079daf17f66f6e639585e3a
+curator/vendor/certifi-2019.3.9-py2.py3-none-any.whl:
+  size: 158601
+  object_id: 4a6d1189-9598-4aba-7db9-8c934d66856d
+  sha: sha256:59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5
 curator/vendor/click-6.7-py2.py3-none-any.whl:
   size: 71175
   object_id: b2befa12-45f4-4311-4fc5-f617e45f3c59
@@ -50,6 +54,10 @@ curator/vendor/six-1.14.0-py2.py3-none-any.whl:
   size: 10938
   object_id: 2bc076f9-931b-480f-5704-a491b74515e2
   sha: sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c
+curator/vendor/urllib3-1.24.2-py2.py3-none-any.whl:
+  size: 131747
+  object_id: 0a7b1677-6763-4d79-5ff3-93ea71079433
+  sha: sha256:4c291ca23bbb55c76518905869ef34bdd5f0e46af7afe6861e8375643ffee1a0
 curator/vendor/voluptuous-0.11.5-py2.py3-none-any.whl:
   size: 27677
   object_id: 6889d3b8-07e8-4e17-49a0-474405676494
@@ -98,30 +106,6 @@ nats_to_syslog/nats_to_syslog_linux_amd64.tar.gz:
   size: 2094679
   object_id: 51e95b33-7375-492e-7ce6-c861579dd2dd
   sha: sha256:17da6f37f28006a98ac3697acdf0c901316f2a59cfcae1145586fa01e4fb7d6f
-python/Python-3.6.2.tgz:
-  size: 22580749
-  object_id: 3c3b1136-1e31-4e8a-408c-8c51ee0f384e
-  sha: sha256:7919489310a5f17f7acbab64d731e46dca0702874840dadce8bd4b2b3b8e7a82
-python/requests-2.21.0-py2.py3-none-any.whl:
-  size: 57987
-  object_id: dea5bedb-3b9a-4119-4046-f0ebef306592
-  sha: sha256:7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b
-python/vendor/certifi-2019.3.9-py2.py3-none-any.whl:
-  size: 158601
-  object_id: c61720cf-a199-4379-5d9f-c009f16a6e92
-  sha: sha256:59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5
-python/vendor/chardet-3.0.4-py2.py3-none-any.whl:
-  size: 133356
-  object_id: 670d8fad-ccdf-41cc-66bb-fa54309b81c5
-  sha: sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691
-python/vendor/idna-2.8-py2.py3-none-any.whl:
-  size: 58594
-  object_id: 5d59d9c1-237f-41f2-7583-ca7e75c88e83
-  sha: sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c
-python/vendor/urllib3-1.24.2-py2.py3-none-any.whl:
-  size: 131747
-  object_id: 625b335b-ab64-4496-63b4-e14469aea27d
-  sha: sha256:4c291ca23bbb55c76518905869ef34bdd5f0e46af7afe6861e8375643ffee1a0
 ruby/rake-12.3.2.gem:
   size: 87040
   object_id: f3da806d-51e4-4ca6-5ba3-6a846f08269e
