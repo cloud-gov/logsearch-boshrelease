@@ -46,6 +46,10 @@ curator/vendor/python_dateutil-2.8.1-py2.py3-none-any.whl:
   size: 227183
   object_id: a0da919d-2599-410c-6513-9cfdae7aed27
   sha: sha256:75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a
+curator/vendor/requests-2.21.0-py2.py3-none-any.whl:
+  size: 57987
+  object_id: 75d6958c-0272-4eb2-7a3c-c0ca47243fd7
+  sha: sha256:7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b
 curator/vendor/requests_aws4auth-0.9-py2.py3-none-any.whl:
   size: 54238
   object_id: 28ea1d6f-f180-485f-7a52-64e43ab5d31d
