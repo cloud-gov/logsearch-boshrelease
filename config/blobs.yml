@@ -6,10 +6,6 @@ curator/elasticsearch-curator-v5.7.6.tar.gz:
   size: 223849
   object_id: 5bc54ecf-cb6d-4252-5542-ae0f1e889554
   sha: sha256:a48486cacf0b32038358babfc5a8755c9a24992ff5279226b923298b426fe253
-curator/requests-2.21.0-py2.py3-none-any.whl:
-  size: 57987
-  object_id: fc202425-4c46-48c0-4c1f-9e7b7653f7ff
-  sha: sha256:7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b
 curator/vendor/PyYAML-3.12.zip:
   size: 375811
   object_id: 6bab6751-63a5-49bf-4d11-3959e99260e0
@@ -26,6 +22,10 @@ curator/vendor/certifi-2019.3.9-py2.py3-none-any.whl:
   size: 158601
   object_id: 4a6d1189-9598-4aba-7db9-8c934d66856d
   sha: sha256:59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5
+curator/vendor/chardet-3.0.4-py2.py3-none-any.whl:
+  size: 133356
+  object_id: b33bdd53-f533-481f-4bb4-0665839d1509
+  sha: sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691
 curator/vendor/click-6.7-py2.py3-none-any.whl:
   size: 71175
   object_id: b2befa12-45f4-4311-4fc5-f617e45f3c59
