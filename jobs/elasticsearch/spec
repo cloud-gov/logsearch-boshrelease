@@ -149,7 +149,3 @@ properties:
   elasticsearch.snapshots.repository:
     description: Repository name for automatic snapshots
     default: ''
-  elasticsearch.migrate_data_path:
-    description: move data path from /var/vcap/store/elasticsearch/logsearch to /var/vcap/store/elasticsearch
-    default: false
-
