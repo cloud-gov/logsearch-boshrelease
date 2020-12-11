@@ -1,6 +1,6 @@
 {
-  "index_templates": ["<%= p('elasticsearch_config.index_prefix') %>*"],
-  "prioirity": 100,
+  "index_patterns": ["<%= p('elasticsearch_config.index_prefix') %>*"],
+  "priority": 100,
   "template": {
     "settings": {
       "number_of_shards": 5,
