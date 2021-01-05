@@ -47,5 +47,5 @@ fi
 --pipeline.workers ${LOGSTASH_WORKERS} \
 --log.format=json \
 --log.level=<%= p("logstash.log_level") %> \
---path.logs /var/vcap/sys/log/${JOB_DIR}
+--path.logs /var/vcap/sys/log/${JOB_NAME}
 
