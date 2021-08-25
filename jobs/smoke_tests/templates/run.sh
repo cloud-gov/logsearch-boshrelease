@@ -38,7 +38,7 @@ LOG="<13>$(date -u +"%Y-%m-%dT%H:%M:%SZ") 0.0.0.0 smoke-test-errand [job=smoke_t
 <% if p('smoke_tests.use_tls') %>
 INGEST="openssl s_client -connect $INGESTOR_HOST:$INGESTOR_PORT"
 <% else %>
-INGEST="nc $INGESTOR_HOST $INGESTOR_PORT"
+INGEST="nc -q 5 $INGESTOR_HOST $INGESTOR_PORT"
 <% end %>
 
 echo "SENDING $LOG"
