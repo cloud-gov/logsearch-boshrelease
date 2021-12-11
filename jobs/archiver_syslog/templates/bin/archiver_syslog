@@ -28,7 +28,7 @@ HEAP_SIZE=<%= heap_size %>
 export <%= env.keys[0] %>="<%= env.values[0] %>"
 <% end %>
 
-export LS_JAVA_OPTS="-Xms$HEAP_SIZE -Xmx$HEAP_SIZE -DPID=$$ -Djava.io.tmpdir=/var/vcap/sys/tmp/${JOB_NAME} ‐Dlog4j2.formatMsgNoLookups=True"
+export LS_JAVA_OPTS="-Xms$HEAP_SIZE -Xmx$HEAP_SIZE -DPID=$$ -Djava.io.tmpdir=/var/vcap/sys/tmp/${JOB_NAME} -Dlog4j2.formatMsgNoLookups=true"
 
 # construct a complete config file from all the fragments
 cat ${JOB_DIR}/config/input_and_output.conf > ${JOB_DIR}/config/logstash.conf
