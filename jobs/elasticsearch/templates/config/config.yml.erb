@@ -40,9 +40,9 @@ opendistro_security:
 cluster.name: "<%= cluster_name %>"
 
 <% if p("elasticsearch.node.allow_master") && index == 0 %>
-cluster.initial_master_nodes: <%= master_hosts[0] %>
+cluster.initial_master_nodes: "<%= master_hosts[0] %>"
 <% else %>
-cluster.initial_master_nodes: <%= master_hosts.join(',') %>
+cluster.initial_master_nodes: "<%= master_hosts.join(',') %>"
 <% end %>
 
 # For backward compatibility with v6 clustes
@@ -76,5 +76,5 @@ cloud:
 <% end %>
 
 <% if_p('elasticsearch.config_options') do p("elasticsearch.config_options", {}).each do | k, v | %>
-<%= k %>: <%= v %>
+<%= k %>: <%= v %><% end %>
 <% end %>
