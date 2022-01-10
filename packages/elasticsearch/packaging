@@ -3,3 +3,5 @@ set -e
 tar xzf elasticsearch/elasticsearch-7.9.3-linux-x86_64.tar.gz -C $BOSH_INSTALL_TARGET --strip-components 1
 
 chown -R root:vcap "${BOSH_INSTALL_TARGET}/jdk"
+
+/bin/rm -f "${BOSH_INSTALL_TARGET}/bin/elasticsearch-sql-cli-7.9.3.jar"
