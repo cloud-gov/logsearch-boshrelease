@@ -36,6 +36,7 @@ opendistro_security:
   unless master_hosts
     master_hosts = p("elasticsearch.master_hosts")
 %>
+
 cluster.name: "<%= cluster_name %>"
 
 <% if p("elasticsearch.node.allow_master") && index == 0 %>
@@ -75,5 +76,5 @@ cloud:
 <% end %>
 
 <% if_p('elasticsearch.config_options') do p("elasticsearch.config_options", {}).each do | k, v | %>
-<%= k %>: <%= v %><% end %>
+<%= k %>: <%= v %>
 <% end %>
