@@ -19,7 +19,7 @@ templates:
   config/node-pem.erb: config/ssl/elasticsearch-node.pem
   config/admin-crt.erb: config/ssl/elasticsearch-admin.crt
   config/admin-pem.erb: config/ssl/elasticsearch-admin.pem
-  config/jvm.options.erb: config/jvm.options
+  config/jvm.options.erb: config/jvm.options.d/custom
   config/log4j2.properties.erb: config/log4j2.properties
 
 provides:
