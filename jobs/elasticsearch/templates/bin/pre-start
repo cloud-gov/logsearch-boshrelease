@@ -21,3 +21,7 @@ rm -rf /var/vcap/packages/elasticsearch/plugins/*
 <% end %>
 
 cp -p /var/vcap/packages/elasticsearch/config/jvm.options /var/vcap/jobs/elasticsearch/config/jvm.options
+chown root:vcap /var/vcap/jobs/elasticsearch/config/jvm.options
+
+rmdir /var/vcap/packages/elasticsearch/logs/
+ln -s /var/vcap/sys/log/elasticsearch /var/vcap/packages/elasticsearch/logs
