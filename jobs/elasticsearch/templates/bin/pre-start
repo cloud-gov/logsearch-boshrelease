@@ -23,5 +23,12 @@ rm -rf /var/vcap/packages/elasticsearch/plugins/*
 cp -p /var/vcap/packages/elasticsearch/config/jvm.options /var/vcap/jobs/elasticsearch/config/jvm.options
 chown root:vcap /var/vcap/jobs/elasticsearch/config/jvm.options
 
-rmdir /var/vcap/packages/elasticsearch/logs/
-ln -s /var/vcap/sys/log/elasticsearch /var/vcap/packages/elasticsearch/logs
+log_dir=/var/vcap/packages/elasticsearch/logs
+
+if [[ -d ${log_dir} ]]; then
+  rmdir ${log_dir}
+fi
+
+if [[ ! -a ${log_dir} ]]; then
+  ln -s /var/vcap/sys/log/elasticsearch ${log_dir}
+fi
