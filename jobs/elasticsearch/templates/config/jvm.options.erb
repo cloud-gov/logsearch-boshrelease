@@ -46,4 +46,6 @@
 -Dlog4j2.disable.jmx=true
 -Dlog4j.skipJansi=true
 
-<% p('elasticsearch.jvm_options').each do |opt| %><%= opt %><% end %>
+<% p('elasticsearch.jvm_options').each do |opt| %>
+<%= opt %>
+<% end %>
