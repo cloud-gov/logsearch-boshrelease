@@ -90,10 +90,6 @@ kibana/kibana-7.9.3-linux-x86_64.tar.gz:
   size: 295755102
   object_id: 74b514c5-0669-4b75-71f0-9b1f81240e97
   sha: sha256:20106e084f717270ce38290d1d3908db7de09b16233688ce0ec41e1d0dffddd6
-logstash/logstash-7.16.2.tar.gz:
-  size: 365618045
-  object_id: 3f491091-eceb-48bd-62e8-f012c2712839
-  sha: sha256:f89dad70b76de7b165e54ba6888cce040c213ed6d65dc9d68627b53a5e6648ad
 logstash/logstash-7.17.5.tar.gz:
   size: 20115394
   object_id: 3c16ff46-ba27-49d7-6a7f-4a1d5b93b885
