@@ -74,10 +74,10 @@ curator/vendor/voluptuous-0.11.5-py2.py3-none-any.whl:
   size: 27677
   object_id: 6889d3b8-07e8-4e17-49a0-474405676494
   sha: sha256:303542b3fc07fb52ec3d7a1c614b329cdbee13a9d681935353d8ea56a7bfa9f1
-elasticsearch/elasticsearch-7.17.5-no-jdk-linux-x86_64.tar.gz:
-  size: 167410729
-  object_id: de00c51b-5ecf-4c0d-53fd-04c6a6aaf5bc
-  sha: sha256:d301e4e270bbb3391e3aa721adc6c4cf86c3dcc5521a914120408d32ac30a92e
+elasticsearch/elasticsearch-7.9.3-no-jdk-linux-x86_64.tar.gz:
+  size: 162808745
+  object_id: e3856ece-c8a3-4c2b-6097-53a75ee5eeca
+  sha: sha256:2ab0e23277e2fd9365b53af2653e6107ab46db2117390e84ba53385a96f3559f
 haproxy/haproxy-1.7.5.tar.gz:
   size: 1743979
   object_id: 4ee72933-de11-4d3c-4657-b6b284388def
