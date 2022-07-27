@@ -86,10 +86,6 @@ haproxy/pcre-8.40.tar.gz:
   size: 2065161
   object_id: 28786a5b-7b76-45af-578f-af8bd85ef90a
   sha: sha256:1d75ce90ea3f81ee080cdc04e68c9c25a9fb984861a0618be7bbf676b18eda3e
-kibana/kibana-7.9.3-linux-x86_64.tar.gz:
-  size: 295755102
-  object_id: 74b514c5-0669-4b75-71f0-9b1f81240e97
-  sha: sha256:20106e084f717270ce38290d1d3908db7de09b16233688ce0ec41e1d0dffddd6
 kibana/kibana-7.17.5-linux-x86_64.tar.gz:
   size: 263788794
   object_id: b0aef29a-f939-4632-65a3-0de6b26d4d9c
