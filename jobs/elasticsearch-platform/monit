@@ -1,5 +1,5 @@
 check process elasticsearch-platform
-  with pidfile /var/vcap/sys/run/bpm/elasticsearch/elasticsearch.pid
+  with pidfile /var/vcap/sys/run/bpm/elasticsearch-platform/elasticsearch.pid
   start program "/var/vcap/jobs/bpm/bin/bpm start elasticsearch-platform"
   stop program "/var/vcap/jobs/bpm/bin/bpm stop elasticsearch-platform"
   group vcap
