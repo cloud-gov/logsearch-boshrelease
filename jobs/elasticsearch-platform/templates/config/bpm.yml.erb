@@ -1,5 +1,5 @@
 processes:
-  - name: elasticsearch
+  - name: elasticsearch-platform
     hooks:
       pre_start: /var/vcap/jobs/elasticsearch-platform/bin/pre-start
     executable: /var/vcap/jobs/elasticsearch-platform/bin/elasticsearch.sh
