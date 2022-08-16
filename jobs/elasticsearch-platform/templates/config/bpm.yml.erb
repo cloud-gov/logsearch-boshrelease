@@ -6,7 +6,7 @@ processes:
     persistent_disk: true
     ephemeral_disk: true
     additional_volumes:
-    - path: /var/vcap/sys/tmp/elasticsearch
+    - path: /var/vcap/sys/tmp/elasticsearch-platform
       writable: true
       allow_executions: true
     - path: /var/vcap/jobs/elasticsearch-platform/config
