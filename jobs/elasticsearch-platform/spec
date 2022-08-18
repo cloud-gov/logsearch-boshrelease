@@ -150,3 +150,6 @@ properties:
   elasticsearch.snapshots.repository:
     description: Repository name for automatic snapshots
     default: ''
+  elasticsearch.migrate_data:
+    description: migrate data from /var/vcap/store/elasticsearch to /var/vcap/store/elasticsearch-platform
+    default: false

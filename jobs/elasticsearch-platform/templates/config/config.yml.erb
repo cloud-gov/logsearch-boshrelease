@@ -3,7 +3,7 @@ bootstrap:
 
 path:
   logs: "/var/vcap/sys/log/elasticsearch-platform"
-  data: "/var/vcap/store/elasticsearch"
+  data: "/var/vcap/store/elasticsearch-platform"
 <% if p('elasticsearch.path_repo') != '' %>
   repo: ["<%= p('elasticsearch.path_repo') %>"]
 <% end %>
