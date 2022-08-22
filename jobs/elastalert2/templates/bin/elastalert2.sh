@@ -11,4 +11,4 @@ export CONFIG_DIR=/var/vcap/jobs/elastalert2/config
 export PYTHONPATH=/var/vcap/packages/elastalert2/lib/python3.7/site-packages/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/var/vcap/packages/python3/lib
 
-python elastalert/elastalert.py --config $CONFIG_DIR/config.yml
+python -m elastalert.elastalert --config $CONFIG_DIR/config.yml
