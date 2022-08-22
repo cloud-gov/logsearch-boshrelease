@@ -36,6 +36,6 @@ fi
 
 <% if p("elasticsearch.migrate_data") %>
 if [[ -d /var/vcap/store/elasticsearch ]]; then
-    cp -pR /var/vcap/store/elasticsearch/nodes /var/vcap/store/elasticsearch-platform
+    cp -pRu /var/vcap/store/elasticsearch/nodes /var/vcap/store/elasticsearch-platform
 fi
 <% end %>
