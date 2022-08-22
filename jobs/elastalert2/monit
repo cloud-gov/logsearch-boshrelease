@@ -1,0 +1,5 @@
+check process elastalert2
+  with pidfile /var/vcap/sys/run/bpm/elastalert2/elastalert2.pid
+  start program "/var/vcap/jobs/bpm/bin/bpm start elastalert2"
+  stop program "/var/vcap/jobs/bpm/bin/bpm stop elastalert2"
+  group vcap
