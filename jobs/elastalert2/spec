@@ -12,5 +12,13 @@ templates:
   config/config.yaml.erb: config/config.yaml
 
 consumes:
-- name: elasticsearch-platform
+- name: elasticsearch
   type: elasticsearch
+
+properties:
+  elastalert2.elasticsearch.host:
+    description: "IP address of elasticsearch master to send elasticsearch requests to"
+    default: "127.0.0.1"
+  elastalert2.elasticsearch.port:
+    description: "Port of elasticsearch master to send elasticsearch requests to"
+    default: "9200"
