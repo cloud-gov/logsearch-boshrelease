@@ -76,6 +76,7 @@ curator/vendor/voluptuous-0.11.5-py2.py3-none-any.whl:
   sha: sha256:303542b3fc07fb52ec3d7a1c614b329cdbee13a9d681935353d8ea56a7bfa9f1
 elastalert2/elastalert2-2.6.0.tar.gz:
   size: 273688
+  object_id: b63afa39-0036-4744-65e0-c643163ba4f1
   sha: sha256:cd43a197431c546d240a23bb94c5459a69a728321ff98f20c6a9318c4538cd4b
 elasticsearch/elasticsearch-7.9.3-no-jdk-linux-x86_64.tar.gz:
   size: 162808745
