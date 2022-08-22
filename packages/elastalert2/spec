@@ -1,6 +1,8 @@
 ---
 name: elastalert2
 
-files:
+dependencies:
+  - python3
 
-- elastalert2/elastalert2-2.6.0.tar.gz
+files:
+  - elastalert2/elastalert2-2.6.0.tar.gz
