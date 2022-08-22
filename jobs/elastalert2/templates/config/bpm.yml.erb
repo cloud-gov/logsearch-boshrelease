@@ -1,15 +1,15 @@
 processes:
-  - name: elasticsearch-platform
+  - name: elastalert2
     hooks:
-      pre_start: /var/vcap/jobs/elasticsearch-platform/bin/pre-start
-    executable: /var/vcap/jobs/elasticsearch-platform/bin/elasticsearch.sh
+      pre_start: /var/vcap/jobs/elastalert2/bin/pre-start
+    executable: /var/vcap/jobs/elastalert2/bin/elastalert2.sh
     persistent_disk: true
     ephemeral_disk: true
     additional_volumes:
-    - path: /var/vcap/sys/tmp/elasticsearch-platform
+    - path: /var/vcap/sys/tmp/elastalert2
       writable: true
       allow_executions: true
-    - path: /var/vcap/jobs/elasticsearch-platform/config
+    - path: /var/vcap/jobs/elastalert2/config
       writable: true
     capabilities:
     - SYS_RESOURCE
