@@ -1,0 +1,6 @@
+---
+name: elastalert2
+
+files:
+
+- elastalert2/elastalert2-2.6.0.tar.gz
