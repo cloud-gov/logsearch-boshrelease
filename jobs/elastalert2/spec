@@ -5,10 +5,10 @@ description: This job runs ElastAlert2 for alerting
 
 packages:
   - elastalert2
+  - python3
 
 templates:
   bin/pre-start: bin/pre-start.erb
-  config/bpm.yml.erb: config/bpm.yml
   config/config.yaml.erb: config/config.yaml
 
 consumes:
