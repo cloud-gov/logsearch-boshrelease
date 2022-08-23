@@ -138,10 +138,10 @@ elastalert2/vendor/docopt-0.6.2-py2.py3-none-any.whl:
   size: 13704
   object_id: 7b648544-89d2-4d05-472c-97a55241a80a
   sha: sha256:0fd59cebc4ca8bc4af81e5452d76dbfef8daa20330ae2feb7ef335c9df327398
-elastalert2/vendor/elastalert2-2.6.0-py3-none-any.whl:
-  size: 187730
-  object_id: 71c623fb-6c98-4a39-6775-abd17cd45301
-  sha: sha256:0ebd12a0f10c806e55718a59195394a2c1055cb5d6058728156e7b0e5c3f35fd
+# elastalert2/vendor/elastalert2-2.6.0-py3-none-any.whl:
+#   size: 187730
+#   object_id: 71c623fb-6c98-4a39-6775-abd17cd45301
+#   sha: sha256:0ebd12a0f10c806e55718a59195394a2c1055cb5d6058728156e7b0e5c3f35fd
 elastalert2/vendor/elasticsearch-7.10.1-py2.py3-none-any.whl:
   size: 322062
   object_id: f7f04c53-a91d-4ce8-606e-75d15cecdb83
