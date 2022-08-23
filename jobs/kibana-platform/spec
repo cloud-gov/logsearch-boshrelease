@@ -40,6 +40,8 @@ properties:
   kibana.port:
     description: "Kibana is served by a back end server. This controls which port to use."
     default: 5601
+  kibana.public_base_url:
+    description: "The publicly available URL that end-users access Kibana at (e.g. https://kibana-platform.com)"
   kibana.host:
     description: "This setting specifies the IP address of the back end server."
     default: "0.0.0.0"
