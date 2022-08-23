@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+PYTHON_PACKAGE=$1
+
+if [ -z "$PYTHON_PACKAGE" ]; then
+    echo "Name of Python package"
+    exit 1
+fi
+
+BLOB_PREFIX="$PYTHON_PACKAGE/vendor"
+BLOBS_DIR="blobs"
+BLOBS_LOCAL_DESTINATION="$BLOBS_DIR/$BLOB_PREFIX"
+
+# Download wheel files for Python package
+pip wheel "$PYTHON_PACKAGE" -w "$BLOBS_LOCAL_DESTINATION"
+
+pushd "$BLOBS_DIR" || exit 1
+
+find "$BLOB_PREFIX" -name '*.whl' -print0 | xargs -0 -I {} bosh add-blob {} {}
+
+popd "$BLOBS_DIR" || exit 1
