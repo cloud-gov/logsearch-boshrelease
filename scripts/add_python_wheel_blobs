@@ -8,10 +8,20 @@ if [ -z "$PYTHON_PACKAGE" ]; then
 fi
 
 BLOB_PREFIX="$PYTHON_PACKAGE/vendor"
-BLOBS_DIR="blobs"
-BLOBS_LOCAL_DESTINATION="$BLOBS_DIR/$BLOB_PREFIX"
+TMP_DIR=$(mktemp -d)
+WHEELS_LOCAL_DESTINATION="$TMP_DIR/$BLOB_PREFIX"
+
+mkdir -p "${TMP_DIR}/${BLOB_PREFIX}"
 
 # Download wheel files for Python package
-pip wheel "$PYTHON_PACKAGE" -w "$BLOBS_LOCAL_DESTINATION"
+pip wheel "$PYTHON_PACKAGE" -w "$WHEELS_LOCAL_DESTINATION"
 
-find "$BLOBS_LOCAL_DESTINATION" -name '*.whl' -print0 | xargs -0 -I {} bosh add-blob {} {}
+while IFS= read -r -d '' filename
+do
+  echo "file: $filename"
+  blob_name=${filename/$TMP_DIR\//}
+  echo "blob name: $blob_name"
+  bosh add-blob "$filename" "$blob_name"
+done < <(find "$WHEELS_LOCAL_DESTINATION" -name '*.whl' -print0)
+
+rm -rf "$TMP_DIR"
