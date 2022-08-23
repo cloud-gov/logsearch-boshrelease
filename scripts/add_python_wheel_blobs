@@ -3,7 +3,7 @@
 PYTHON_PACKAGE=$1
 
 if [ -z "$PYTHON_PACKAGE" ]; then
-    echo "Name of Python package"
+    echo "Name of Python package is required as first argument"
     exit 1
 fi
 
