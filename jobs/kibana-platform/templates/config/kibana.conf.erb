@@ -9,7 +9,11 @@ server.host: <%= p('kibana.host') %>
 # server.basePath: ""
 
 # The publicly available URL that end-users access Kibana at
-server.publicBaseUrl: <%= p('kibana.public_base_url') %>
+# This setting is not required but suppresses a warning message from Kibana
+# see https://github.com/elastic/kibana/issues/109970
+<% if_p("kibana.public_base_url") do | public_base_url | %>
+server.publicBaseUrl: <%= public_base_url %>
+<% end %>
 
 # The Elasticsearch instance to use for all your queries.
 # elasticsearch.url: "http://localhost:9200"
