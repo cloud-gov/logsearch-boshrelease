@@ -8,7 +8,9 @@ packages:
   - python3
 
 templates:
+  bin/elastalert2.sh: bin/elastalert2.sh
   bin/pre-start: bin/pre-start.erb
+  config/bpm.yml.erb: config/bpm.yml
   config/config.yaml.erb: config/config.yaml
 
 consumes:
