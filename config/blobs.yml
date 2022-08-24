@@ -80,211 +80,156 @@ elastalert2/elastalert2-2.6.0.tar.gz:
   sha: sha256:0964e0cbd0cf4d0edd4948d73d670f29daaa322d7cefd625aa926850c142ad6d
 elastalert2/vendor/APScheduler-3.9.1-py2.py3-none-any.whl:
   size: 59549
-  object_id: 9d33e4af-7a3b-4f2e-7518-949f2c0a4a64
   sha: sha256:ddc25a0ddd899de44d7f451f4375fb971887e65af51e41e5dcf681f59b8b2c9a
 elastalert2/vendor/Jinja2-3.1.2-py3-none-any.whl:
   size: 133101
-  object_id: b4718af4-76c1-4404-5bdd-b0541194ba13
   sha: sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
-elastalert2/vendor/MarkupSafe-2.1.1-cp38-cp38-macosx_10_9_x86_64.whl:
-  size: 13618
-  object_id: 8bfc54ba-19f8-414e-41b7-64eef66e520d
-  sha: sha256:0212a68688482dc52b2d45013df70d169f542b7394fc744c02a57374a4207003
+elastalert2/vendor/MarkupSafe-2.1.1-cp37-cp37m-macosx_10_9_x86_64.whl:
+  size: 13542
+  sha: sha256:671cd1187ed5e62818414afe79ed29da836dde67166a9fac6d435873c44fdd02
 elastalert2/vendor/PyJWT-1.7.1-py2.py3-none-any.whl:
   size: 18928
-  object_id: c056f625-9ce6-4821-47a3-23c31d4bd9b4
   sha: sha256:5c6eca3c2940464d106b99ba83b00c6add741c9becaec087fb7ccdefea71350e
-elastalert2/vendor/PyYAML-6.0-cp38-cp38-macosx_10_9_x86_64.whl:
-  size: 192163
-  object_id: 765327b4-7fe1-45e4-655b-4bcabb6bed1c
-  sha: sha256:0b4624f379dab24d3725ffde76559cff63d9ec94e1736b556dacdfebe5ab6d4b
+elastalert2/vendor/PyYAML-6.0-cp37-cp37m-macosx_10_9_x86_64.whl:
+  size: 189305
+  sha: sha256:819b3830a1543db06c4d4b865e70ded25be52a2e0631ccd2f6a47a2822f2fd7c
 elastalert2/vendor/attrs-22.1.0-py2.py3-none-any.whl:
   size: 58795
-  object_id: fb6276ff-2702-4865-40cb-874736646c85
   sha: sha256:86efa402f67bf2df34f51a335487cf46b1ec130d02b8d39fd248abfd30da551c
 elastalert2/vendor/aws_requests_auth-0.4.3-py2.py3-none-any.whl:
   size: 6838
-  object_id: a7abdeb7-81c0-4396-70cf-9464e50a12f3
   sha: sha256:646bc37d62140ea1c709d20148f5d43197e6bd2d63909eb36fa4bb2345759977
-elastalert2/vendor/boto3-1.24.57-py3-none-any.whl:
+elastalert2/vendor/boto3-1.24.59-py3-none-any.whl:
   size: 132501
-  object_id: 68ef0bed-1b90-45b1-7ec9-33b80b056bb5
-  sha: sha256:74a50c718594a38fa846ce6951ea4704a5836194e2d4055e959baef39299d283
-elastalert2/vendor/botocore-1.27.57-py3-none-any.whl:
-  size: 9082521
-  object_id: 8c1cf22e-f614-4760-6c19-3c9c11ace3c2
-  sha: sha256:e55510321dba95065a071909177ab6d4e1621b41f090cefe54252af9b0766855
+  sha: sha256:34ab44146a2c4e7f4e72737f4b27e6eb5e0a7855c2f4599e3d9199b6a0a2d575
+elastalert2/vendor/botocore-1.27.59-py3-none-any.whl:
+  size: 9088275
+  sha: sha256:69d756791fc024bda54f6c53f71ae34e695ee41bbbc1743d9179c4837a4929da
 elastalert2/vendor/certifi-2022.6.15-py3-none-any.whl:
   size: 160247
-  object_id: b22bc3da-09c6-46ac-691b-0a5701fcf416
   sha: sha256:fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412
-elastalert2/vendor/cffi-1.15.1-cp38-cp38-macosx_10_9_x86_64.whl:
-  size: 178940
-  object_id: b5587101-fc5a-4e3d-480d-01fe009ecac0
-  sha: sha256:320dab6e7cb2eacdf0e658569d2575c4dad258c0fcc794f46215e1e39f90f2c3
+elastalert2/vendor/cffi-1.15.1-cp37-cp37m-macosx_10_9_x86_64.whl:
+  size: 178906
+  sha: sha256:198caafb44239b60e252492445da556afafc7d1e3ab7a1fb3f0584ef6d742375
 elastalert2/vendor/charset_normalizer-2.1.1-py3-none-any.whl:
   size: 39748
-  object_id: b2ff3bc9-a446-417e-7eef-1d68d402cd6b
   sha: sha256:83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f
 elastalert2/vendor/croniter-1.3.5-py2.py3-none-any.whl:
   size: 17529
-  object_id: e3147468-2d6a-4a05-40dd-d2417800d8b7
   sha: sha256:4f72faca42c00beb6e30907f1315145f43dfbe5ec0ad4ada24b4c0d57b86a33a
 elastalert2/vendor/defusedxml-0.7.1-py2.py3-none-any.whl:
   size: 25604
-  object_id: 14d87ce2-3e86-4df3-74b4-627e8e0c644a
   sha: sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61
 elastalert2/vendor/docopt-0.6.2-py2.py3-none-any.whl:
   size: 13704
-  object_id: 7b648544-89d2-4d05-472c-97a55241a80a
-  sha: sha256:0fd59cebc4ca8bc4af81e5452d76dbfef8daa20330ae2feb7ef335c9df327398
-# elastalert2/vendor/elastalert2-2.6.0-py3-none-any.whl:
-#   size: 187730
-#   object_id: 71c623fb-6c98-4a39-6775-abd17cd45301
-#   sha: sha256:0ebd12a0f10c806e55718a59195394a2c1055cb5d6058728156e7b0e5c3f35fd
+  sha: sha256:e62a515e035b4c73e7d59be7f80242a5c5516578c6834e87e1bcd04746e44418
 elastalert2/vendor/elasticsearch-7.10.1-py2.py3-none-any.whl:
   size: 322062
-  object_id: f7f04c53-a91d-4ce8-606e-75d15cecdb83
   sha: sha256:4ebd34fd223b31c99d9f3b6b6236d3ac18b3046191a37231e8235b06ae7db955
 elastalert2/vendor/envparse-0.2.0-py2.py3-none-any.whl:
   size: 7011
-  object_id: 9a006712-f28c-4d36-63b4-8a05573eb9ab
-  sha: sha256:108da2b3ce0a72a760d3cfc6877238b0f19f390ac06c1e982cef3fc605fc0239
+  sha: sha256:e1e27f234ae633fb24807ce95685d11c0c892ca60a6ee9102d9c34d9103bdcc9
 elastalert2/vendor/exotel-0.1.5-py3-none-any.whl:
   size: 2722
-  object_id: ecf74ad9-fc92-4c2f-5c44-885adc89ef3c
-  sha: sha256:9e0a434bde1d3d355c6905608bd47a42e788541220db588d418ff63099ce815d
+  sha: sha256:81ac08ffcdf49539cd484a4a0377dfbaabf98daf02d3f50a9d1f7d97d3a49271
 elastalert2/vendor/idna-3.3-py3-none-any.whl:
   size: 61160
-  object_id: 96958722-bb81-4d1f-662b-f37cf9dc6bbd
   sha: sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff
+elastalert2/vendor/importlib_metadata-4.12.0-py3-none-any.whl:
+  size: 21704
+  sha: sha256:7401a975809ea1fdc658c3aa4f78cc2195a0e019c5cbc4c06122884e9ae80c23
 elastalert2/vendor/importlib_resources-5.9.0-py3-none-any.whl:
   size: 33030
-  object_id: a1f96e90-6824-4e9f-70c2-57078e62412b
   sha: sha256:f78a8df21a79bcc30cfd400bdc38f314333de7c0fb619763f6b9dabab8268bb7
-elastalert2/vendor/jira-3.4.0-py3-none-any.whl:
-  size: 71031
-  object_id: 7cfbce52-ce24-41b7-7fc8-57d47d02cfed
-  sha: sha256:118278e913232a0040886a052b3035146782bdfa37dd247672dfcc42edf5008c
+elastalert2/vendor/jira-3.2.0-py3-none-any.whl:
+  size: 69033
+  sha: sha256:8b30c79aec4610000d2c49739e98226853f30e4056471550e7fc972cffbbbcff
 elastalert2/vendor/jmespath-1.0.1-py3-none-any.whl:
   size: 20256
-  object_id: fe2912ae-97d2-4af6-5e41-872f86991c1f
   sha: sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980
 elastalert2/vendor/jsonpointer-2.3-py2.py3-none-any.whl:
   size: 7753
-  object_id: d1de59be-fa76-432e-61f8-c3e1f002f694
   sha: sha256:51801e558539b4e9cd268638c078c6c5746c9ac96bc38152d443400e4f3793e9
 elastalert2/vendor/jsonschema-4.14.0-py3-none-any.whl:
   size: 82407
-  object_id: 138a91e4-e90a-40a9-5a07-887ff715b4d6
   sha: sha256:9892b8d630a82990521a9ca630d3446bd316b5ad54dbe981338802787f3e0d2d
+elastalert2/vendor/keyring-23.8.2-py3-none-any.whl:
+  size: 34638
+  sha: sha256:10d2a8639663fe2090705a00b8c47c687cacdf97598ea9c11456679fa974473a
 elastalert2/vendor/oauthlib-3.2.0-py3-none-any.whl:
   size: 151524
-  object_id: 5acd6393-a048-4a07-4b7b-e11d3952905f
   sha: sha256:6db33440354787f9b7f3a6dbd4febf5d0f93758354060e802f6c06cb493022fe
-elastalert2/vendor/packaging-21.3-py3-none-any.whl:
-  size: 40750
-  object_id: 1502d2c1-bf79-4aad-5ce4-b0022c69dd5d
-  sha: sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522
 elastalert2/vendor/pkgutil_resolve_name-1.3.10-py3-none-any.whl:
   size: 4734
-  object_id: 33a90c7a-efe7-46b6-4006-61fa1406fc1f
   sha: sha256:ca27cc078d25c5ad71a9de0a7a330146c4e014c2462d9af19c6b828280649c5e
 elastalert2/vendor/prison-0.2.1-py2.py3-none-any.whl:
   size: 5794
-  object_id: 980be422-d133-4a95-53e3-1eb715989871
   sha: sha256:f90bab63fca497aa0819a852f64fb21a4e181ed9f6114deaa5dc04001a7555c5
 elastalert2/vendor/prometheus_client-0.14.1-py3-none-any.whl:
   size: 59479
-  object_id: 16a866de-ce74-4e26-5b6f-daac60b190d7
   sha: sha256:522fded625282822a89e2773452f42df14b5a8e84a86433e3f8a189c1d54dc01
 elastalert2/vendor/py_zabbix-1.1.7-py3-none-any.whl:
   size: 19924
-  object_id: 476cff28-821e-424e-5d17-2ac06159b6ef
   sha: sha256:f921abc88298c56f5aab9054815122ca959f8612df88fdc3a240ad2d95e4c282
 elastalert2/vendor/pycparser-2.21-py2.py3-none-any.whl:
   size: 118697
-  object_id: 2b42f8f6-5585-4397-5fbf-e5d00aa36298
   sha: sha256:8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9
-elastalert2/vendor/pyparsing-3.0.9-py3-none-any.whl:
-  size: 98338
-  object_id: 32da3882-62f4-47a0-7727-a0ac008e9ddf
-  sha: sha256:5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc
-elastalert2/vendor/pyrsistent-0.18.1-cp38-cp38-macosx_10_9_universal2.whl:
-  size: 81404
-  object_id: fbbd59f9-253e-4a95-427e-d7c65f462cf2
-  sha: sha256:fd8da6d0124efa2f67d86fa70c851022f87c98e205f0594e1fae044e7119a5a6
+elastalert2/vendor/pyrsistent-0.18.1-cp37-cp37m-macosx_10_9_x86_64.whl:
+  size: 68699
+  sha: sha256:e92a52c166426efbe0d1ec1332ee9119b6d32fc1f0bbfd55d5c1088070e7fc1b
 elastalert2/vendor/python_dateutil-2.8.2-py2.py3-none-any.whl:
   size: 247702
-  object_id: 131dfe33-556a-4c0f-490d-d4c736d46dd1
   sha: sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9
 elastalert2/vendor/pytz-2022.2.1-py2.py3-none-any.whl:
   size: 500564
-  object_id: ef080e75-85f6-4049-6ee0-d3efd975c926
   sha: sha256:220f481bdafa09c3955dfbdddb7b57780e9a94f5127e35456a48589b9e0c0197
 elastalert2/vendor/requests-2.28.1-py3-none-any.whl:
   size: 62843
-  object_id: 3e28eb3d-75a6-4fb7-4257-a4f7906d3842
   sha: sha256:8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349
 elastalert2/vendor/requests_oauthlib-1.3.1-py2.py3-none-any.whl:
   size: 23892
-  object_id: c77e2c19-c3c7-42ae-4c4d-b0d5ac65c45d
   sha: sha256:2577c501a2fb8d05a304c09d090d6e47c306fef15809d102b327cf8364bddab5
 elastalert2/vendor/requests_toolbelt-0.9.1-py2.py3-none-any.whl:
   size: 54314
-  object_id: a75269c1-2ed0-4f65-6cd7-b07a35b5c83f
   sha: sha256:380606e1d10dc85c3bd47bf5a6095f815ec007be7a8b69c878507068df059e6f
 elastalert2/vendor/s3transfer-0.6.0-py3-none-any.whl:
   size: 79568
-  object_id: 0b0876c3-93db-4363-5164-3f8d119e7737
   sha: sha256:06176b74f3a15f61f1b4f25a1fc29a4429040b7647133a463da8fa5bd28d5ecd
-elastalert2/vendor/setuptools-65.2.0-py3-none-any.whl:
-  size: 1232422
-  object_id: 53b5bbe0-bf3b-40fc-5bb8-0d5bf20a6596
-  sha: sha256:a3ca5857c89f82f5c9410e8508cb32f4872a3bafd4aa7ae122a24ca33bccc750
+elastalert2/vendor/setuptools-65.3.0-py3-none-any.whl:
+  size: 1232493
+  sha: sha256:2e24e0bec025f035a2e72cdd1961119f557d78ad331bb00ff82efb2ab8da8e82
 elastalert2/vendor/six-1.16.0-py2.py3-none-any.whl:
   size: 11053
-  object_id: 38b1860f-ebbb-4404-70cd-f91ddd9baf3a
   sha: sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
 elastalert2/vendor/sortedcontainers-2.4.0-py2.py3-none-any.whl:
   size: 29575
-  object_id: 3ab165b5-f78d-4d5d-5859-310d91b8bc21
   sha: sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0
 elastalert2/vendor/statsd_tags-3.2.1.post1-py2.py3-none-any.whl:
   size: 11732
-  object_id: fbd41ed6-6da8-41f1-7c40-6905ccc46613
   sha: sha256:d887177205eb220eab258cad3789bf24334894c8b4193cf23c33737671a61135
 elastalert2/vendor/stomp.py-8.0.1-py3-none-any.whl:
   size: 37455
-  object_id: 2baa02ce-eeb5-47f4-6f4e-2b7e84517660
   sha: sha256:69eb189f89a0e843d23d27b030ffb654007bbc57e899ac32183b401c0e0a4623
-elastalert2/vendor/tencentcloud_sdk_python-3.0.717-py2.py3-none-any.whl:
-  size: 4990808
-  object_id: 3293a4b1-91ae-4612-68e1-254675023a3f
-  sha: sha256:c1e8a5f37609e91209a649315d306d3c6a1225f3304c0ca63be14d503e090ca8
+elastalert2/vendor/tencentcloud_sdk_python-3.0.718-py2.py3-none-any.whl:
+  size: 5004514
+  sha: sha256:0c9c63f4c6096dd772348aab19b2055bdbb9bac5876969e3d184d57698382cfe
 elastalert2/vendor/texttable-1.6.4-py2.py3-none-any.whl:
   size: 10717
-  object_id: d8391d4e-e88f-4a77-5c5b-55f4e91e2090
   sha: sha256:dd2b0eaebb2a9e167d1cefedab4700e5dcbdb076114eed30b58b97ed6b37d6f2
 elastalert2/vendor/twilio-6.57.0-py2.py3-none-any.whl:
   size: 1267956
-  object_id: 6503c278-2d8b-4e9f-5b3a-1d8bfc71389d
-  sha: sha256:5cd26a12fbfa660d64d294670a51c9c29b1b02d050ed13ea6b56b3204b1fd3b3
+  sha: sha256:1d1495ec3eedabab9fb045929114c22317a34da63fa986c316189e484b3a63c0
 elastalert2/vendor/typing_extensions-4.3.0-py3-none-any.whl:
   size: 25596
-  object_id: 47714e0d-d2ab-4497-4fb2-8200c99d5493
   sha: sha256:25642c956049920a5aa49edcdd6ab1e06d7e5d467fc00e0506c44ac86fbfca02
 elastalert2/vendor/tzlocal-2.1-py2.py3-none-any.whl:
   size: 16201
-  object_id: 2583a981-da1e-4113-6f1b-4ef4535ce0f0
   sha: sha256:e2cb6c6b5b604af38597403e9852872d7f534962ae2954c7f35efcb1ccacf4a4
 elastalert2/vendor/urllib3-1.26.12-py2.py3-none-any.whl:
   size: 140381
-  object_id: 9ff1f183-2732-48a7-70f0-d6f0c653982a
   sha: sha256:b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997
 elastalert2/vendor/zipp-3.8.1-py3-none-any.whl:
   size: 5645
-  object_id: b8f4073c-a03f-453a-4543-e6b42ccceb45
   sha: sha256:47c40d7fe183a6f21403a199b3e4192cca5774656965b0a4988ad2f8feb5f009
 elasticsearch/elasticsearch-7.9.3-no-jdk-linux-x86_64.tar.gz:
   size: 162808745
