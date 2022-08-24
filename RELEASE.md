@@ -11,7 +11,7 @@ To add or update the Python wheels for dependencies as blobs, use the included
 script:
 
 ```shell
-./add_python_wheel_blobs <package_name>
+./scripts/add_python_wheel_blobs <package_name>
 ```
 
 ## Building BOSH releases
