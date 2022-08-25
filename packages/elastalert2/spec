@@ -10,7 +10,7 @@ files:
   - elastalert2/vendor/Jinja2-3.1.2-py3-none-any.whl
   - elastalert2/vendor/MarkupSafe-2.1.1-cp37-cp37m-macosx_10_9_x86_64.whl
   - elastalert2/vendor/PyJWT-1.7.1-py2.py3-none-any.whl
-  - elastalert2/vendor/PyYAML-6.0.tar.gz
+  - elastalert2/vendor/PyYAML-6.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
   - elastalert2/vendor/attrs-22.1.0-py2.py3-none-any.whl
   - elastalert2/vendor/aws_requests_auth-0.4.3-py2.py3-none-any.whl
   - elastalert2/vendor/boto3-1.24.59-py3-none-any.whl

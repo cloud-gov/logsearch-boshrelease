@@ -94,10 +94,10 @@ elastalert2/vendor/PyJWT-1.7.1-py2.py3-none-any.whl:
   size: 18928
   object_id: feda29a5-51c2-46e5-75ea-a39b795c7c2a
   sha: sha256:5c6eca3c2940464d106b99ba83b00c6add741c9becaec087fb7ccdefea71350e
-elastalert2/vendor/PyYAML-6.0.tar.gz:
-  size: 124996
-  object_id: ee1afba1-fd4b-45fb-4dcd-0beafe5d9941
-  sha: sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2
+elastalert2/vendor/PyYAML-6.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl:
+  size: 596265
+  object_id: 9a36085b-ac6a-491b-5a6c-6fb02c929b09
+  sha: sha256:231710d57adfd809ef5d34183b8ed1eeae3f76459c18fb4a0b373ad56bedcdd9
 elastalert2/vendor/attrs-22.1.0-py2.py3-none-any.whl:
   size: 58795
   object_id: 677ba56e-fc65-4849-5a8d-4147d3876810
