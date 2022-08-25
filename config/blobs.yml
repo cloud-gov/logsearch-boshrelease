@@ -98,6 +98,10 @@ elastalert2/vendor/PyYAML-6.0-cp37-cp37m-macosx_10_9_x86_64.whl:
   size: 189305
   object_id: 5f3689c9-c884-42e3-6dbe-9851875393d4
   sha: sha256:819b3830a1543db06c4d4b865e70ded25be52a2e0631ccd2f6a47a2822f2fd7c
+elastalert2/vendor/PyYAML-6.0.tar.gz:
+  size: 124996
+  object_id: ee1afba1-fd4b-45fb-4dcd-0beafe5d9941
+  sha: sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2
 elastalert2/vendor/attrs-22.1.0-py2.py3-none-any.whl:
   size: 58795
   object_id: 677ba56e-fc65-4849-5a8d-4147d3876810
