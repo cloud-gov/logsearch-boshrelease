@@ -16,7 +16,7 @@ files:
   - elastalert2/vendor/boto3-1.24.59-py3-none-any.whl
   - elastalert2/vendor/botocore-1.27.59-py3-none-any.whl
   - elastalert2/vendor/certifi-2022.6.15-py3-none-any.whl
-  - elastalert2/vendor/cffi-1.15.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  - elastalert2/vendor/cffi-1.15.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
   - elastalert2/vendor/charset_normalizer-2.1.1-py3-none-any.whl
   - elastalert2/vendor/croniter-1.3.5-py2.py3-none-any.whl
   - elastalert2/vendor/defusedxml-0.7.1-py2.py3-none-any.whl

@@ -118,10 +118,10 @@ elastalert2/vendor/certifi-2022.6.15-py3-none-any.whl:
   size: 160247
   object_id: f8944f26-5d62-4d8e-6bd4-74b8a42e7320
   sha: sha256:fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412
-elastalert2/vendor/cffi-1.15.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl:
-  size: 427911
-  object_id: 91dbeb08-fc1a-4bff-461b-3f99d5109dea
-  sha: sha256:0e2642fe3142e4cc4af0799748233ad6da94c62a8bec3a6648bf8ee68b1c7426
+elastalert2/vendor/cffi-1.15.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl:
+  size: 427145
+  object_id: bc3f4835-d070-429f-650b-4abd44a88aed
+  sha: sha256:fd8a250edc26254fe5b33be00402e6d287f562b6a5b2152dec302fa15bb3e997
 elastalert2/vendor/charset_normalizer-2.1.1-py3-none-any.whl:
   size: 39748
   object_id: 872b13be-8af8-4877-5722-9a8a2da22209
