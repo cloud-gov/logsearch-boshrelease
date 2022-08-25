@@ -6,4 +6,5 @@ export PATH="/var/vcap/packages/python3/bin:${PATH}" LD_LIBRARY_PATH="/var/vcap/
 # --no-index prevents contacting pypi to download packages
 # --find-links tells pip where to look for the dependancies
 # --prefix installation prefix where lib, bin and other top-level folders are placed
+pip3 install --no-index "--prefix=${BOSH_INSTALL_TARGET}" elastalert2/vendor/PyYAML-6.0.tar.gz
 pip3 install --no-index --find-links ./elastalert2/vendor/ "--prefix=${BOSH_INSTALL_TARGET}" elastalert2/elastalert2-2.6.0.tar.gz
