@@ -86,10 +86,10 @@ elastalert2/vendor/Jinja2-3.1.2-py3-none-any.whl:
   size: 133101
   object_id: 153563ea-0ffb-4c31-6005-66eb40523db7
   sha: sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61
-elastalert2/vendor/MarkupSafe-2.1.1-cp37-cp37m-macosx_10_9_x86_64.whl:
-  size: 13542
-  object_id: 08af0cd0-d9d4-4924-5f78-1d402bf96fa9
-  sha: sha256:671cd1187ed5e62818414afe79ed29da836dde67166a9fac6d435873c44fdd02
+elastalert2/vendor/MarkupSafe-2.1.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl:
+  size: 25334
+  object_id: 1bfac298-ec02-4f78-504a-a0baa8c88997
+  sha: sha256:e72591e9ecd94d7feb70c1cbd7be7b3ebea3f548870aa91e2732960fa4d57a37
 elastalert2/vendor/PyJWT-1.7.1-py2.py3-none-any.whl:
   size: 18928
   object_id: feda29a5-51c2-46e5-75ea-a39b795c7c2a
@@ -118,10 +118,10 @@ elastalert2/vendor/certifi-2022.6.15-py3-none-any.whl:
   size: 160247
   object_id: f8944f26-5d62-4d8e-6bd4-74b8a42e7320
   sha: sha256:fe86415d55e84719d75f8b69414f6438ac3547d2078ab91b67e779ef69378412
-elastalert2/vendor/cffi-1.15.1-cp37-cp37m-macosx_10_9_x86_64.whl:
-  size: 178906
-  object_id: 30ded348-a8cf-4872-7155-23e82b255910
-  sha: sha256:198caafb44239b60e252492445da556afafc7d1e3ab7a1fb3f0584ef6d742375
+elastalert2/vendor/cffi-1.15.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl:
+  size: 427911
+  object_id: 91dbeb08-fc1a-4bff-461b-3f99d5109dea
+  sha: sha256:0e2642fe3142e4cc4af0799748233ad6da94c62a8bec3a6648bf8ee68b1c7426
 elastalert2/vendor/charset_normalizer-2.1.1-py3-none-any.whl:
   size: 39748
   object_id: 872b13be-8af8-4877-5722-9a8a2da22209
@@ -206,10 +206,10 @@ elastalert2/vendor/pycparser-2.21-py2.py3-none-any.whl:
   size: 118697
   object_id: e117efc6-8e24-4ae9-49b0-a6924d4f439e
   sha: sha256:8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9
-elastalert2/vendor/pyrsistent-0.18.1-cp37-cp37m-macosx_10_9_x86_64.whl:
-  size: 68699
-  object_id: f629a1ee-7229-4cd4-6167-aee98504ace6
-  sha: sha256:e92a52c166426efbe0d1ec1332ee9119b6d32fc1f0bbfd55d5c1088070e7fc1b
+elastalert2/vendor/pyrsistent-0.18.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl:
+  size: 117129
+  object_id: 3cb293b2-8fe3-4345-74f6-00ae33aa7321
+  sha: sha256:d7a096646eab884bf8bed965bad63ea327e0d0c38989fc83c5ea7b8a87037bfc
 elastalert2/vendor/python_dateutil-2.8.2-py2.py3-none-any.whl:
   size: 247702
   object_id: 9a0b1965-2446-4850-4c86-148863ddc571
