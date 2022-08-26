@@ -1,5 +1,11 @@
 # Releasing
 
+## Vendoring Python 3
+
+cloud.gov maintains a BOSH release for vendoring Python 3 into other BOSH releases:
+
+<https://github.com/cloud-gov/cg-python3-boshrelease>
+
 ## Adding blobs for wheels of Python dependencies
 
 Some of the jobs in this release, such as `curator`, are directly invoked from
