@@ -26,5 +26,5 @@ version
 /logsearch-config.tgz
 deployment/ci/logsearch-vars.yml
 *.tgz
-.final_builds
+.final_builds*
 releases
