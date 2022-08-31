@@ -153,3 +153,6 @@ properties:
   elasticsearch.migrate_data:
     description: migrate data from /var/vcap/store/elasticsearch to /var/vcap/store/elasticsearch-platform
     default: false
+  elasticsearch.delete_migrated_data:
+    description: delete /var/vcap/store/elasticsearch
+    default: false
