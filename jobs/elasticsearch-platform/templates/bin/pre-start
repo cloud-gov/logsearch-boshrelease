@@ -36,6 +36,15 @@ fi
 
 <% if p("elasticsearch.migrate_data") %>
 if [[ -d /var/vcap/store/elasticsearch ]]; then
-    cp -pRu /var/vcap/store/elasticsearch/nodes /var/vcap/store/elasticsearch-platform
+  mkdir /var/vcap/store/elasticsearch-platform || true
+  rsync -au --delete /var/vcap/store/elasticsearch/nodes /var/vcap/store/elasticsearch-platform/nodes
+fi
+<% end %>
+
+<% if p("elasticsearch.delete_migrated_data") %>
+if [[ -d /var/vcap/store/elasticsearch && -d /var/vcap/store/elasticsearch-platform ]]; then
+  if cat /var/vcap/jobs/elasticsearch-platform/config/elasticsearch.yml | grep -q 'data: "/var/vcap/store/elasticsearch-platform"'; then
+    rm -rf /var/vcap/store/elasticsearch
+  fi
 fi
 <% end %>
