@@ -37,7 +37,7 @@ fi
 <% if p("elasticsearch.migrate_data") %>
 if [[ -d /var/vcap/store/elasticsearch ]]; then
   mkdir /var/vcap/store/elasticsearch-platform || true
-  rsync -au /var/vcap/store/elasticsearch/nodes /var/vcap/store/elasticsearch-platform/nodes
+  rsync -au /var/vcap/store/elasticsearch/nodes /var/vcap/store/elasticsearch-platform
 fi
 <% end %>
 
