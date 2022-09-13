@@ -10,8 +10,7 @@ blobs/*
 .vagrant
 .idea
 .DS_Store
-.final_builds/jobs/**/*.tgz
-.final_builds/packages/**/*.tgz
+.final_builds
 *.swp
 *~
 *#
