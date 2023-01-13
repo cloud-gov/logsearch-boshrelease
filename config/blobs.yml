@@ -78,10 +78,6 @@ elasticsearch/elasticsearch-7.9.3-no-jdk-linux-x86_64.tar.gz:
   size: 162808745
   object_id: e3856ece-c8a3-4c2b-6097-53a75ee5eeca
   sha: sha256:2ab0e23277e2fd9365b53af2653e6107ab46db2117390e84ba53385a96f3559f
-elasticsearch/elasticsearch-7.17.5-no-jdk-linux-x86_64.tar.gz:
-  size: 167410729
-  object_id: de00c51b-5ecf-4c0d-53fd-04c6a6aaf5bc
-  sha: sha256:d301e4e270bbb3391e3aa721adc6c4cf86c3dcc5521a914120408d32ac30a92e
 elasticsearch/elasticsearch-7.17.8-no-jdk-linux-x86_64.tar.gz:
   size: 167420965
   object_id: 9736ed14-c267-4678-7463-532e8bad9c95
@@ -102,10 +98,6 @@ kibana/kibana-7.17.8-linux-x86_64.tar.gz:
   size: 268709961
   object_id: 70e48428-62ce-4879-5c09-5d3dc5377500
   sha: sha256:1926fd553e2ff1b89e9613ba5d2b96ab0fe485aab0120a613051bc8a1cde7964
-logstash/logstash-7.17.5.tar.gz:
-  size: 363609474
-  object_id: 6d8f78c8-3d0a-4517-7026-b4353ebdc05f
-  sha: sha256:ccad67d8528c41f0b20da2eb41d8913650612538714b0da0946062be86a42c6b
 logstash/logstash-7.17.8-linux-x86_64.tar.gz:
   size: 364452036
   object_id: 47211553-01c9-4156-6cc6-833d70f8d260
