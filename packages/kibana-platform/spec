@@ -3,4 +3,4 @@ name: kibana-platform
 
 files:
 
-- kibana/kibana-7.17.5-linux-x86_64.tar.gz
+- kibana/kibana-7.17.8-linux-x86_64.tar.gz

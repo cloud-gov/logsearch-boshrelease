@@ -7,4 +7,4 @@ dependencies:
 
 files:
 
-- elasticsearch/elasticsearch-7.17.5-no-jdk-linux-x86_64.tar.gz
+- elasticsearch/elasticsearch-7.17.8-no-jdk-linux-x86_64.tar.gz
