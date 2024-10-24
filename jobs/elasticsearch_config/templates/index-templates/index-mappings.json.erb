@@ -19,6 +19,14 @@
               "norms": false
             }
           }
+        },
+        "app-nano-seconds": {
+          "match": "app.sseLogTime",
+          "match_mapping_type" : "date",
+          "mapping"{
+            "type": "date".
+            "format": "strict_date_optional_time_nanos"
+          }
         }
       ],
       "properties": {
