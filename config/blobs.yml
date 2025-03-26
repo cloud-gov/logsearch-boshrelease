@@ -80,6 +80,7 @@ curator/vendor/voluptuous-0.11.5-py2.py3-none-any.whl:
   sha: sha256:303542b3fc07fb52ec3d7a1c614b329cdbee13a9d681935353d8ea56a7bfa9f1
 curator/vendor/wheel-0.45.1-py3-none-any.whl:
   size: 72494
+  object_id: caaa1c4b-f0fc-4347-5069-5a99e6e0545d
   sha: sha256:708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248
 elasticsearch/elasticsearch-7.9.3-no-jdk-linux-x86_64.tar.gz:
   size: 162808745
