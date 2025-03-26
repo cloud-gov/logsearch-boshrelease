@@ -18,10 +18,10 @@ curator/vendor/botocore-1.15.36-py2.py3-none-any.whl:
   size: 6066108
   object_id: d7278e18-38c6-42ee-4e3a-f8a4f82f9ecd
   sha: sha256:d2233e19b6a60792185b15fe4cd8f92c5579298e5079daf17f66f6e639585e3a
-curator/vendor/certifi-2019.9.11-py2.py3-none-any.whl:
-  size: 154423
-  object_id: 183cbda6-b098-4f98-42b9-70e23fb885f9
-  sha: sha256:fd7c7c74727ddcf00e9acd26bba8da604ffec95bf1c2144e67aff7a8b50e6cef
+curator/vendor/certifi-2025.1.31-py3-none-any.whl:
+  size: 166393
+  object_id: 838806ef-7117-4037-4478-9e716ce6c54c
+  sha: sha256:ca78db4565a652026a4db2bcdf68f2fb589ea80d0be70e03929ed730746b84fe
 curator/vendor/chardet-3.0.4-py2.py3-none-any.whl:
   size: 133356
   object_id: b33bdd53-f533-481f-4bb4-0665839d1509
@@ -62,6 +62,10 @@ curator/vendor/s3transfer-0.3.3-py2.py3-none-any.whl:
   size: 69490
   object_id: f8f215b7-4e4c-4adb-7d1a-bfd9f67fee60
   sha: sha256:2482b4259524933a022d59da830f51bd746db62f047d6eb213f2f8855dcb8a13
+curator/vendor/setuptools-78.1.0-py3-none-any.whl:
+  size: 1256108
+  object_id: 7565505d-6f38-4b1f-73a1-a38ccd689177
+  sha: sha256:3e386e96793c8702ae83d17b853fb93d3e09ef82ec62722e61da5cd22376dcd8
 curator/vendor/six-1.14.0-py2.py3-none-any.whl:
   size: 10938
   object_id: 2bc076f9-931b-480f-5704-a491b74515e2
