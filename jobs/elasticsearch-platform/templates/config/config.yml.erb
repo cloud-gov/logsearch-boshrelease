@@ -50,7 +50,7 @@ node:
 <% p("elasticsearch.node.tags", {}).each do | k, v | %>
   attr.<%= k %>: "<%= v %>"
 <% end %>
-<% if_p('elasticsearch.node.roles') and not p('elasticsearch.node.roles') == 'maintenance' and not p('elasticsearch.node.roles') == 'kibana' do %>
+<% if not p('elasticsearch.node.roles') == 'maintenance' and not p('elasticsearch.node.roles') == 'kibana' %>
   roles: [ <%= p('elasticsearch.node.roles') %> ]
 <% end %>
 network:
