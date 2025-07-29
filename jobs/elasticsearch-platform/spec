@@ -71,6 +71,8 @@ properties:
   elasticsearch.node.allow_ingest:
     description: Allow node to become ingest node? (true / false)
     default: false
+  elasticsearch.node.roles:
+    description: Roles for the data nodes (data / data_hot / data_warm)
   elasticsearch.node.ssl.ca:
     description: CA certificate for SSL plugin
   elasticsearch.node.ssl.certificate:
