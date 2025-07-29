@@ -53,7 +53,7 @@ node:
 <% p("elasticsearch.node.tags", {}).each do | k, v | %>
   attr.<%= k %>: "<%= v %>"
 <% end %>
-<% if p('elasticsearch.node.roles') != '' %>
+<% if_p('elasticsearch.node.roles') do %>
   roles: [ <%= p('elasticsearch.node.roles') %> ]
 <% end %>
 network:
