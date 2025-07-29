@@ -47,9 +47,6 @@ discovery.zen.ping.unicast.hosts: "<%= master_hosts %>"
 
 node:
   name: "<%= name %>/<%= index %>"
-  master: <%= p("elasticsearch.node.allow_master") %>
-  data: <%= p("elasticsearch.node.allow_data") %>
-  ingest: <%= p("elasticsearch.node.allow_ingest") %>
 <% p("elasticsearch.node.tags", {}).each do | k, v | %>
   attr.<%= k %>: "<%= v %>"
 <% end %>
