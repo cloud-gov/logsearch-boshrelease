@@ -2,7 +2,7 @@
 
 set -e
 
-<% if p("elasticsearch.node.roles") =~ 'data' %>
+<% if !!(p("elasticsearch.node.roles") =~ /data/) %>
 # disable allocations before bringing down data nodes
 
 curl -s -X PUT localhost:9200/_all/_settings \
