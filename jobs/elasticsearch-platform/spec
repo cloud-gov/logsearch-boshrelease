@@ -63,7 +63,7 @@ properties:
       on all master and data nodes.
     default: ''
   elasticsearch.node.roles:
-    description: Roles for the data nodes (data / data / data_warm)
+    description: Roles for the data nodes (data / data_content / data_hot / data_warm)
   elasticsearch.node.ssl.ca:
     description: CA certificate for SSL plugin
   elasticsearch.node.ssl.certificate:
