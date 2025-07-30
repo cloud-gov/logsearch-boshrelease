@@ -2,7 +2,7 @@
 
 set -e
 
-<% if p("elasticsearch.node.roles") == 'data' or p("elasticsearch.node.roles") == 'data_warm' %>
+<% if p("elasticsearch.node.roles").includes?("data") %>
 # disable allocations before bringing down data nodes
 
 curl -s -X PUT localhost:9200/_all/_settings \
@@ -12,11 +12,11 @@ curl -s -X PUT localhost:9200/_all/_settings \
 
 <% end %>
 
-<% if p('elasticsearch.cloud.aws.bucket') != '' and p('elasticsearch.node.roles') == 'master' and spec.bootstrap %>
+<% if p('elasticsearch.cloud.aws.bucket') != '' and p('elasticsearch.node.roles').includes?("master") and spec.bootstrap %>
 curl -X DELETE -s localhost:9200/_snapshot/<%= p('elasticsearch.snapshots.repository') %> > /dev/null
 <% end %>
 
-<% if p('elasticsearch.path_repo') != '' and p('elasticsearch.node.allow_roles') =='master' and spec.bootstrap %>
+<% if p('elasticsearch.path_repo') != '' and p('elasticsearch.node.roles').includes?("master") and spec.bootstrap %>
 curl -X DELETE -s localhost:9200/_snapshot/<%= p('elasticsearch.snapshots.repository') %> > /dev/null
 <% end %>
 
