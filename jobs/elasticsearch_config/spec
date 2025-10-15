@@ -35,3 +35,6 @@ properties:
     default: []
   elasticsearch_config.license:
     description: "The ElasticSearch License string"
+  elasticsearch_config.shards:
+    description: number of shards in platform log
+    default: 5
