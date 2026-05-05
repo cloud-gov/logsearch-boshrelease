@@ -90,6 +90,10 @@ elasticsearch/elasticsearch-7.17.8-no-jdk-linux-x86_64.tar.gz:
   size: 167420965
   object_id: 9736ed14-c267-4678-7463-532e8bad9c95
   sha: sha256:7d7e23ad38107842eed2ec57ee5be1cc45f97f2df8e31f71c928af0b199116ec
+elasticsearch/repository-s3-7.17.29.zip:
+  size: 5349291
+  object_id: b61f9efa-ea65-4570-454f-56e72c751260
+  sha: sha256:ad6d5f01cfa8e889ec8c6eb869368462814fd7430ff3b74cbae0ad21ea003e83
 haproxy/haproxy-1.7.5.tar.gz:
   size: 1743979
   object_id: 4ee72933-de11-4d3c-4657-b6b284388def
