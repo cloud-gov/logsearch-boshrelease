@@ -82,6 +82,10 @@ curator/vendor/wheel-0.45.1-py3-none-any.whl:
   size: 72494
   object_id: caaa1c4b-f0fc-4347-5069-5a99e6e0545d
   sha: sha256:708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248
+elasticsearch/elasticsearch-7.9.3-no-jdk-linux-x86_64.tar.gz:
+  size: 162808745
+  object_id: e3856ece-c8a3-4c2b-6097-53a75ee5eeca
+  sha: sha256:2ab0e23277e2fd9365b53af2653e6107ab46db2117390e84ba53385a96f3559f
 elasticsearch/elasticsearch-7.17.8-no-jdk-linux-x86_64.tar.gz:
   size: 167420965
   object_id: 9736ed14-c267-4678-7463-532e8bad9c95
