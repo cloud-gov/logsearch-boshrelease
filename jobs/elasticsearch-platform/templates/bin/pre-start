@@ -13,6 +13,15 @@ fi
 rm -rf /var/vcap/packages/elasticsearch-platform/plugins/*
 <% if_p('elasticsearch.cloud.aws.access_key', 'elasticsearch.cloud.aws.secret_key') do %>
   /var/vcap/packages/elasticsearch-platform/bin/elasticsearch-plugin install -b repository-s3
+  # Add AWS credentials to Elasticsearch keystore
+  echo "<%= p('elasticsearch.cloud.aws.access_key') %>" | /var/vcap/packages/elasticsearch-platform/bin/elasticsearch-keystore add -f -x s3.client.default.access_key
+  echo "<%= p('elasticsearch.cloud.aws.secret_key') %>" | /var/vcap/packages/elasticsearch-platform/bin/elasticsearch-keystore add -f -x s3.client.default.secret_key
+  
+  <% if_p('elasticsearch.cloud.aws.region') do |region| %>
+  echo "<%= p('elasticsearch.cloud.aws.region') %>" | /var/vcap/packages/elasticsearch-platform/bin/elasticsearch-keystore add -f -x s3.client.default.region
+  <% end %>
+  
+
 <% end %>
 <% p("elasticsearch.plugins").each do |plugin| name, path = plugin.first %>
   <% if path.start_with? '/var/vcap' %>
