@@ -3,8 +3,6 @@ set -e
 # Extract Elasticsearch
 tar xzf elasticsearch/elasticsearch-7.17.8-no-jdk-linux-x86_64.tar.gz -C $BOSH_INSTALL_TARGET --strip-components 1
 
-# Set JAVA_HOME to use the openjdk-11 dependency
-export JAVA_HOME=/var/vcap/packages/openjdk-11
-export ES_JAVA_HOME=/var/vcap/packages/openjdk-11
-# Install the S3 repository plugin using Elasticsearch's plugin installer
-$BOSH_INSTALL_TARGET/bin/elasticsearch-plugin install --batch file://$(pwd)/elasticsearch/repository-s3-7.17.8.zip
+# Create plugins directory and extract plugin
+mkdir -p $BOSH_INSTALL_TARGET/plugins/repository-s3
+unzip -q elasticsearch/repository-s3-7.17.8.zip -d $BOSH_INSTALL_TARGET/plugins/repository-s3
