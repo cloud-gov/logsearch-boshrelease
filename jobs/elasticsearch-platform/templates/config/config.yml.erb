@@ -60,17 +60,6 @@ http:
 
 
 
-#<% if_p('elasticsearch.cloud.aws.access_key', 'elasticsearch.cloud.aws.secret_key') do %>
-s3:
-  client:
-    default:
-      protocol: <%= p('elasticsearch.cloud.aws.protocol') %>
-      read_timeout: <%= p('elasticsearch.cloud.aws.read_timeout') %>
-      access_key: <%= p('elasticsearch.cloud.aws.access_key') %>
-      secret_key: <%= p('elasticsearch.cloud.aws.secret_key') %>
-      <% if_p('elasticsearch.cloud.aws.region') do |region| %>region: <%= region %><% end %>
-<% end %>
-
 <% if_p('elasticsearch.config_options') do p("elasticsearch.config_options", {}).each do | k, v | %>
 <%= k %>: <%= v %><% end %>
 <% end %>
