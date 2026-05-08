@@ -63,3 +63,6 @@ http:
 <% if_p('elasticsearch.config_options') do p("elasticsearch.config_options", {}).each do | k, v | %>
 <%= k %>: <%= v %><% end %>
 <% end %>
+
+s3.client.default.region: "<%= p('elasticsearch.cloud.aws.region') %>"
+s3.client.default.endpoint: "s3-<%= p('elasticsearch.cloud.aws.region') %>.amazonaws.com"
