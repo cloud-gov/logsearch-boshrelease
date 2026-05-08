@@ -9,6 +9,8 @@ export LANG=en_US.UTF-8
 export TMP_DIR=/var/vcap/sys/tmp/$JOB_NAME
 export JOB_DIR=/var/vcap/jobs/$JOB_NAME
 export LOG_DIR=/var/vcap/sys/log/$JOB_NAME
+export AWS_ACCESS_KEY_ID="<%= p('elasticsearch.cloud.aws.access_key') %>"
+export AWS_SECRET_ACCESS_KEY="<%= p('elasticsearch.cloud.aws.secret_key') %>"
 source /var/vcap/packages/openjdk-11/bosh/runtime.env
 
 <% p("elasticsearch.exec.environment", {}).each do |k, v| %>
