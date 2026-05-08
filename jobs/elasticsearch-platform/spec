@@ -137,8 +137,6 @@ properties:
   elasticsearch.cloud.aws.read_timeout:
     description: The amount of time to wait for data to be transferred over an established, open connection before the connection is timed out
     default: 50s
-  elasticsearch.cloud.aws.role_arn:
-    description: role arn for s3
   elasticsearch.cloud.aws.bucket:
     description: Bucket name on S3 where to keep snapshots
     default: ''
