@@ -8,4 +8,3 @@ dependencies:
 files:
 
 - elasticsearch/elasticsearch-7.17.8-no-jdk-linux-x86_64.tar.gz
-- elasticsearch/repository-s3-7.17.8.zip
