@@ -1,10 +1,8 @@
 > [!WARNING]
 > **This repository is deprecated and no longer maintained.**
 >
-> It has been replaced by the following repositorie:
+> It has been replaced by the following repositories:
 > - https://github.com/cloud-gov/opensearch-boshrelease
->
-> Please use this repositorie instead.
 
 
 
