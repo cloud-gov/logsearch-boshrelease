@@ -1,3 +1,11 @@
+> [!WARNING]
+> **This repository is deprecated and no longer maintained.**
+>
+> It has been replaced by the following repository:
+> - https://github.com/cloud-gov/opensearch-boshrelease
+
+
+
 # Logsearch
 
 A scalable stack of [Elasticsearch](https://www.elastic.co/elasticsearch), [Logstash](https://www.elastic.co/logstash), and [Kibana](https://www.elastic.co/kibana) for your own [BOSH](https://bosh.io/docs)-managed infrastructure.
